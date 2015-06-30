@@ -6,5 +6,7 @@ I am not new to _either_ software development or web design, but my current fora
 Previous experience includes:
 
 + Flight simulator flight model design, tuning, and testing (FORTRAN and C)
-+ eBay, Amazon, and web store business (HTML and CSS)
++ **eBay**, **Amazon**, and web store business (HTML and CSS)
 + Website redesign for hire (HTML, CSS, Javascript, jQuery)
+
+###### [Learn more me] (https://about.me/davidlynnhayes)
