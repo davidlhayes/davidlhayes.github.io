@@ -1,3 +1,115 @@
+/* Variables */
+
+/* Colors */
+$headerColor: rgb(150,51,0);
+$menuColor: rgb(47, 80, 77);
+$logoFontColor: rgb(150, 51, 0);
+$fontColor2: rgb(223, 201, 87);
+$fontColor3: rgb(191, 191, 93);
+$backgroundColor: rgb(249, 250, 241);
+
+/* Font Families */
+$Serif: 'Quattrocento', serif;
+$SansSerif: 'Oswald', sans-serif;
+
+/* Font Sizes */
+$baseFontSize: 16px;
+$headerFontSize: 1.5rem;
+$logoFont: 2rem;
+$menuFont: 1rem;
+$smallFont: .75rem;
+
+/* Dimensions */
+$maxWidth: 1280px;
+$mainHeight: 860px;
+$headerHeight: 75px;
+$footerHeight: 150px;
+
+/* Background */
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-image: url("../assets/images/maze-sky-background.jpg");
+  background-position: center top;
+  background-repeat: cover;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+
+}
+
+/* Header */
+header {
+  height: $headerHeight;
+  background-color: $headerColor;
+  color: $fontColor2;
+  #slogan {
+    h2 {
+      font-family: #sans-serif;
+      margin-top: 0;
+      margin-left: 100px;
+    }
+  }
+  .link {
+    font-size: $headerFontSize * .75;
+  }
+}
+
+/* Menu */
+.menu {
+  width: 300px;
+  background-color: $menuColor;
+  color: $fontColor3;
+}
+
+/* Wrap the Carousel */
+#wrapCarousel {
+  margin: 250px auto;
+  position: relative;
+}
+
+/* Description Panel */
+#description {
+  width: 450px;
+  background-color: $menuColor;
+  color: $fontColor3;
+}
+
+/* Below the Fold */
+#below {
+  background-color: #backgroundColor;
+  font-size: $baseFontSize;
+}
+
+/* Fun (API) area */
+#invite {
+  font-size: $headerFontSize;
+}
+
+/* Message area */
+
+
+
+/* Reply area */
+
+/* Footer */
+footer {
+    clear: both;
+    font-size: #smallFont;
+    color: fontColor3;
+  #copyright {
+      float: left;
+  }
+  #legal {
+    float: right;
+  }
+}
+
+
+/* Registration Form */
+
+/* Legal */
+
 h3, input {
   font-size: 1rem;
   width: 120px;

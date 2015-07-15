@@ -2,60 +2,101 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>jQuery Boilerplate</title>
+	  <meta name="viewport">
+    <title>Choose Your Adventure</title>
     <!-- add stylesheet -->
     <link rel="stylesheet" href="style/style.css">
-
+    <link rel="stylesheet" href="style/impulseslider.css">
     <!-- add scripts -->
     <script src="scripts/jquery.js"></script>
+    <script src="scripts/jquery.impulse.slider.js"></script>
     <script src="scripts/app.js"></script>
 
   </head>
   <body>
+    <div id="wrapper">
+      <header>
+        <nav class="menu"></nav>
+        <span id="slogan">make your imagination happy</span>
+        <nav class="links"></nav>
+      </header>
+      <main>
+      <aside id="menu"></aside>
+        <section id="wrapCarousel">
+        <div id="cubeCarousel">
+          <div id="cubeSpinner">
+              <div class="face one">
+                   <img class="img_slider active" src="assets/images/phonebooth.png">
+              </div>
+              <div class="face two">
+                  <img class="img_slider" src="assets/images/spy.png">
+              </div>
+              <div class="face three">
+                  <img class="img_slider" src="assets/images/pirate-skull.png">
+              </div>
+              <div class="face four">
+                  <img class="img_slider" src="assets/images/vault.png">
+              </div>
+          </div>
+        </div>
+        </section>
 
- <!-- Contact form (slides from left) -->
-    <h3>Registration</h3>
-    <label for="first_name">Your Name</label>
-    <select>
-      <option value="mr">Mr.</option>
-      <option value="mrs">Mrs.</option>
-      <option value="ms">Ms.</option>
-      <option value="miss">Miss</option>
-    </select>
-    <input type="text" id="first_name" placeholder="First Name">
-    <input type="text" id="last_name" placeholder="Last Name"><br>
-    <label for="street1" id="Address">
-    <input type="text" id="street1" placeholder="Street Address"><br>
-    <input type="text" id="street1" placeholder="Street Address (cont)"><br>
-    <input type="tel" id="user_phone" placeholder="Phone Number"><br>
-    <input type="email" id="user_email" placeholder="e-mail"><br>
-    <input type="user_request" id="user_request" placeholder="user_request"><br>
-    <input type="text" id="movie" placeholder="Name a movie that resembles the sort of experience you want to have?"><br>
-  <div id="inputBox">
-    <h5>Which adventure are you applying for?</h5>
-    <label for="heist">The Bank Heist</label>
-    <input type="radio" id="heist" value="heist" name="adv"><br>
-    <label for="spy">Spy Hunter</label>
-    <input type="radio" id="spy" value="spy" name="adv"><br>
-    <label for="pirates">Pirates</label>
-    <input type="radio" value="pirates" name="adv"><br>
-    <label for=""></label>
-  </div>
+              <div class="nav">
+                  <div class="left arrow"></div>
+                  <div class="right arrow"></div>
+              </div>
+      </div>
+      <section id="viewer"></section>
+      <section id="trycya">
+        <section id="user_input"></section>
+        <section id="message_area"></section>
+      </section>
+      <footer><span id="legal">Legal</span></footer>
 
-    <input type="submit" id="form_send" name="name" value="Contact us now!">
+       <!-- Contact form (slides from left) -->
+          <h3>Registration</h3>
+          <label for="first_name">Your Name</label>
+          <select>
+            <option value="mr">Mr.</option>
+            <option value="mrs">Mrs.</option>
+            <option value="ms">Ms.</option>
+            <option value="miss">Miss</option>
+          </select>
+          <input type="text" id="first_name" placeholder="First Name">
+          <input type="text" id="last_name" placeholder="Last Name"><br>
+          <label for="street1" id="Address">
+          <input type="text" id="street1" placeholder="Street Address"><br>
+          <input type="text" id="street1" placeholder="Street Address (cont)"><br>
+          <input type="tel" id="user_phone" placeholder="Phone Number"><br>
+          <input type="email" id="user_email" placeholder="e-mail"><br>
+          <input type="user_request" id="user_request" placeholder="user_request"><br>
+          <input type="text" id="movie" placeholder="Name a movie that resembles the sort of experience you want to have?"><br>
+        <div id="inputBox">
+          <h5>Which adventure are you applying for?</h5>
+          <label for="heist">The Bank Heist</label>
+          <input type="radio" id="heist" value="heist" name="adv"><br>
+          <label for="spy">Spy Hunter</label>
+          <input type="radio" id="spy" value="spy" name="adv"><br>
+          <label for="pirates">Pirates</label>
+          <input type="radio" value="pirates" name="adv"><br>
+          <label for=""></label>
+        </div>
 
-    <div class="loading">
-      Your request is in transit... loading...
-      insert spinner graphic here
-    </div>
+          <input type="submit" id="form_send" name="name" value="Contact us now!">
 
-    <div class="success">
-      <h2>Your message was sent!</h2>
-    </div>
+          <div class="loading">
+            Your request is in transit... loading...
+            insert spinner graphic here
+          </div>
 
-    <div class="error">
-      <h2>Your message failed to send...</h2>
-    </div>
+          <div class="success">
+            <h2>Your message was sent!</h2>
+          </div>
 
+          <div class="error">
+            <h2>Your message failed to send...</h2>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

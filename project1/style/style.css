@@ -1,3 +1,71 @@
+/* Variables */
+/* Colors */
+/* Font Families */
+/* Font Sizes */
+/* Dimensions */
+/* Background */
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-image: url("../assets/images/maze-sky-background.jpg");
+  background-position: center top;
+  background-repeat: cover;
+  overflow: hidden;
+  width: 100%;
+  position: relative; }
+
+/* Header */
+header {
+  height: 75px;
+  background-color: #963300;
+  color: #dfc957; }
+  header #slogan h2 {
+    font-family: #sans-serif;
+    margin-top: 0;
+    margin-left: 100px; }
+  header .link {
+    font-size: 1.125rem; }
+
+/* Menu */
+.menu {
+  width: 300px;
+  background-color: #2f504d;
+  color: #bfbf5d; }
+
+/* Wrap the Carousel */
+#wrapCarousel {
+  margin: 250px auto;
+  position: relative; }
+
+/* Description Panel */
+#description {
+  width: 450px;
+  background-color: #2f504d;
+  color: #bfbf5d; }
+
+/* Below the Fold */
+#below {
+  background-color: #backgroundColor;
+  font-size: 16px; }
+
+/* Fun (API) area */
+#invite {
+  font-size: 1.5rem; }
+
+/* Message area */
+/* Reply area */
+/* Footer */
+footer {
+  clear: both;
+  font-size: #smallFont;
+  color: fontColor3; }
+  footer #copyright {
+    float: left; }
+  footer #legal {
+    float: right; }
+
+/* Registration Form */
+/* Legal */
 h3, input {
   font-size: 1rem;
   width: 120px; }
