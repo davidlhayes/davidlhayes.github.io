@@ -9,22 +9,40 @@ body {
   padding: 0;
   background-image: url("../assets/images/maze-sky-background.jpg");
   background-position: center top;
-  background-repeat: cover;
+  background-repeat: repeat-y;
   overflow: hidden;
   width: 100%;
   position: relative; }
+
+#wrapper {
+  margin: 0 auto;
+  width: 1200px; }
 
 /* Header */
 header {
   height: 75px;
   background-color: #963300;
-  color: #dfc957; }
-  header #slogan h2 {
-    font-family: #sans-serif;
-    margin-top: 0;
-    margin-left: 100px; }
+  color: #dfc957;
+  font-family: "Oswald", sans-serif; }
+  header h2 {
+    font-size: #headerFontSize;
+    color: #fontColor3;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 25px;
+    float: left; }
   header .link {
     font-size: 1.125rem; }
+
+/* Top Navigation */
+#top-nav ul {
+  float: right;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 100px; }
+#top-nav li {
+  display: inline-block;
+  margin: 0 15px 0 0; }
 
 /* Menu */
 .menu {
@@ -35,28 +53,57 @@ header {
   color: #bfbf5d;
   position: absolute;
   top: 75px;
-  left: 0px; }
+  left: 0px;
+  display: none; }
 
 /* Wrap the Carousel */
 #wrapCarousel {
-  margin: 250px auto;
+  margin: 11% 4.5% 0 3%;
+  padding: 0;
   position: relative;
-  float: left; }
+  float: left;
+  text-align: center; }
+  #wrapCarousel img {
+    margin: 0 auto; }
 
 /* Description Panel */
-#description {
-  width: 450px;
+.description {
+  width: 300px;
+  border-radius: 15px;
+  position: relative;
+  margin: 5% 0 15% 0;
+  padding: 3%;
   background-color: #2f504d;
-  color: #bfbf5d; }
+  color: #bfbf5d;
+  float: left; }
+  .description img:nth-child(1) {
+    display: none; }
+  .description img:nth-child(2) {
+    display: none; }
+  .description img:nth-child(3) {
+    display: block; }
+  .description img:nth-child(4) {
+    display: none; }
+
+#descr-right {
+  float: right; }
+
+#logo {
+  font-family: "Oswald", sans-serif;
+  color: #963300;
+  font-size: 2rem;
+  text-align: center; }
 
 /* Below the Fold */
 #below {
   background-color: #backgroundColor;
-  font-size: 16px; }
+  font-size: 16px;
+  display: none; }
 
 /* Fun (API) area */
 #invite {
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  display: none; }
 
 /* Message area */
 #trycya {
@@ -65,17 +112,20 @@ header {
   position: absolute;
   top: 200px;
   right: 150px;
-  background-color: rgba(255, 252, 0, 0.7); }
+  background-color: rgba(255, 252, 0, 0.7);
+  display: none; }
 
 #message_area {
-  margin: 5%; }
+  margin: 5%;
+  display: none; }
 
 /* Reply area */
 /* Footer */
 footer {
   clear: both;
   font-size: #smallFont;
-  color: fontColor3; }
+  color: fontColor3;
+  display: none; }
   footer #copyright {
     float: left; }
   footer #legal {
@@ -85,13 +135,15 @@ footer {
 /* Legal */
 h3, input {
   font-size: 1rem;
-  width: 120px; }
+  width: 120px;
+  display: none; }
 
 #inputBox {
   border: solid 2px black;
   border-radius: 5px;
   padding: 5px 0 5px 0;
   width: 250px;
-  height: 200px; }
+  height: 200px;
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

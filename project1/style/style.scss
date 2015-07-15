@@ -1,41 +1,19 @@
-/* Variables */
-
-/* Colors */
-$headerColor: rgb(150,51,0);
-$menuColor: rgb(47, 80, 77);
-$logoFontColor: rgb(150, 51, 0);
-$fontColor2: rgb(223, 201, 87);
-$fontColor3: rgb(191, 191, 93);
-$backgroundColor: rgb(249, 250, 241);
-
-/* Font Families */
-$Serif: 'Quattrocento', serif;
-$SansSerif: 'Oswald', sans-serif;
-
-/* Font Sizes */
-$baseFontSize: 16px;
-$headerFontSize: 1.5rem;
-$logoFont: 2rem;
-$menuFont: 1rem;
-$smallFont: .75rem;
-
-/* Dimensions */
-$maxWidth: 1280px;
-$mainHeight: 860px;
-$headerHeight: 75px;
-$footerHeight: 150px;
-
+@import 'variables.scss';
 /* Background */
 body {
   margin: 0 auto;
   padding: 0;
   background-image: url("../assets/images/maze-sky-background.jpg");
   background-position: center top;
-  background-repeat: cover;
+  background-repeat: repeat-y;
   overflow: hidden;
   width: 100%;
   position: relative;
 
+}
+#wrapper {
+  margin: 0 auto;
+  width: 1200px;
 }
 
 /* Header */
@@ -43,15 +21,31 @@ header {
   height: $headerHeight;
   background-color: $headerColor;
   color: $fontColor2;
-  #slogan {
-    h2 {
-      font-family: #sans-serif;
-      margin-top: 0;
-      margin-left: 100px;
-    }
+  font-family: $sanSerif;
+  h2 {
+    font-size: #headerFontSize;
+    color: #fontColor3;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 25px;
+    float: left;
   }
   .link {
     font-size: $headerFontSize * .75;
+  }
+}
+
+/* Top Navigation */
+#top-nav {
+  ul {
+    float: right;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 100px;
+  }
+  li {
+    display: inline-block;
+    margin: 0 15px 0 0;
   }
 }
 
@@ -65,31 +59,67 @@ header {
   position: absolute;
   top: 75px;
   left: 0px;
+  display: none;
 }
 
 /* Wrap the Carousel */
 #wrapCarousel {
-  margin: 250px auto;
+  margin: 11% 4.5% 0 3%;
+  padding: 0;
   position: relative;
   float: left;
+  text-align: center;
+  img {
+    margin: 0 auto;
+  }
 }
 
 /* Description Panel */
-#description {
-  width: 450px;
+.description {
+  width: 300px;
+  border-radius: 15px;
+  position: relative;
+  margin: 5% 0 15% 0;
+  padding: 3%;
   background-color: $menuColor;
   color: $fontColor3;
+  float: left;
+  img:nth-child(1) {
+    display: none;
+  }
+  img:nth-child(2) {
+    display: none;
+  }
+  img:nth-child(3) {
+    display: block;
+  }
+  img:nth-child(4) {
+    display: none;
+  }
+
+}
+#descr-right {
+  float: right;
+  //margin: 25% 0 15% 0;
 }
 
+#logo {
+  font-family: $sanSerif;
+  color: $logoFontColor;
+  font-size: $logoFontSize;
+  text-align: center;
+}
 /* Below the Fold */
 #below {
   background-color: #backgroundColor;
   font-size: $baseFontSize;
+  display: none;
 }
 
 /* Fun (API) area */
 #invite {
   font-size: $headerFontSize;
+  display: none;
 }
 
 /* Message area */
@@ -101,11 +131,13 @@ header {
   top: 200px;
   right: 150px;
   background-color: rgba(255, 252, 0,.7);
+  display: none;
 
 }
 
 #message_area {
   margin: 5%;
+  display: none;
 }
 
 /* Reply area */
@@ -115,6 +147,7 @@ footer {
     clear: both;
     font-size: #smallFont;
     color: fontColor3;
+    display: none;
   #copyright {
       float: left;
   }
@@ -131,11 +164,13 @@ footer {
 h3, input {
   font-size: 1rem;
   width: 120px;
+  display: none;
 }
 #inputBox {
   border: solid 2px black;
   border-radius: 5px;
   padding: 5px 0 5px 0;
   width: 250px;
-  height: 200px
+  height: 200px;
+  display: none;
 }
