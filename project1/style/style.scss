@@ -45,6 +45,7 @@ header {
 
 /* Top Navigation */
 #top-nav {
+  background-color: $headerColor;
   ul {
     float: right;
     margin-top: 25px;
@@ -199,8 +200,13 @@ h3, input {
   display: none;
 }
 
-@media (min-width: 320px) {
+@media (max-width: $device-phone) {
   #wrapper {
-    width: 320px;
-  }
+    width: $device-phone;
+}
+
+header {
+  height: $headerHeight * 1.35;
+}
+
 }

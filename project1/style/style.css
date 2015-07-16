@@ -41,14 +41,16 @@ header {
     color: #dfc957; }
 
 /* Top Navigation */
-#top-nav ul {
-  float: right;
-  margin-top: 25px;
-  margin-left: 25px;
-  margin-right: 100px; }
-#top-nav li {
-  display: inline-block;
-  margin: 0 15px 0 0; }
+#top-nav {
+  background-color: #963300; }
+  #top-nav ul {
+    float: right;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 100px; }
+  #top-nav li {
+    display: inline-block;
+    margin: 0 15px 0 0; }
 
 /* FAQ */
 #faq {
@@ -166,8 +168,11 @@ h3, input {
   height: 200px;
   display: none; }
 
-@media (min-width: 320px) {
+@media (max-width: 600px) {
   #wrapper {
-    width: 320px; } }
+    width: 600px; }
+
+  header {
+    height: 101.25px; } }
 
 /*# sourceMappingURL=style.css.map */
