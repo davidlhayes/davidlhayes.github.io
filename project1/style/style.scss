@@ -49,8 +49,8 @@ header {
   ul {
     float: right;
     margin-top: 25px;
-    margin-left: 25px;
-    margin-right: 100px;
+    margin-left: 3%;
+    margin-right: 10%;
   }
   li {
     display: inline-block;
@@ -95,7 +95,7 @@ header {
 
 /* Wrap the Carousel */
 #wrapCarousel {
-  margin: 11% 4.8% 0 6.5%;
+  margin: 11% 4.8% 0 7%;
   padding: 0;
   position: relative;
   float: left;
@@ -108,6 +108,7 @@ header {
 /* Description Panel */
 .description {
   width: 300px;
+  height: 475px;
   border-radius: 15px;
   border: solid 2px black;
   position: relative;
@@ -116,19 +117,32 @@ header {
   background-color: $menuColor;
   color: $fontColor3;
   float: left;
-  img:nth-child(1) {
-    display: none;
-  }
-  img:nth-child(2) {
-    display: none;
-  }
-  img:nth-child(3) {
-    display: block;
-  }
-  img:nth-child(4) {
-    display: none;
-  }
-  opacity: 0;
+}
+
+#img1 {
+  display: block;
+}
+#img2 {
+  display: none;
+}
+#img3 {
+  display: block;
+}
+#img4 {
+  display: none;
+}
+
+#ad1 {
+  display: block;
+}
+#ad2 {
+  display: none;
+}
+#ad3 {
+  display: block;
+}
+#ad4 {
+  display: none;
 }
 #descr-right {
   float: right;
@@ -202,16 +216,30 @@ h3, input {
 
 @media (max-width: $device-tablet) {
   #wrapper {
-    width: $device-tablet;
+    width: 800px;
+}
+header {
+  height: $headerHeight * 1.35;
+}
+#top-nav {
+  width: 100%
+  ul {
+    float: left;
+  }
+}
 }
 
 @media (max-width: $device-phone) {
   #wrapper {
-    width: $device-phone;
+    width: 350px;
 }
-
 header {
   height: $headerHeight * 1.35;
 }
-
+#top-nav {
+  width: 100%;
+  ul {
+    float: left;
+  }
+}
 }

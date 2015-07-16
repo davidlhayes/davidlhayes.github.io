@@ -46,8 +46,8 @@ header {
   #top-nav ul {
     float: right;
     margin-top: 25px;
-    margin-left: 25px;
-    margin-right: 100px; }
+    margin-left: 3%;
+    margin-right: 10%; }
   #top-nav li {
     display: inline-block;
     margin: 0 15px 0 0; }
@@ -84,7 +84,7 @@ header {
 
 /* Wrap the Carousel */
 #wrapCarousel {
-  margin: 11% 4.8% 0 6.5%;
+  margin: 11% 4.8% 0 7%;
   padding: 0;
   position: relative;
   float: left;
@@ -95,6 +95,7 @@ header {
 /* Description Panel */
 .description {
   width: 300px;
+  height: 475px;
   border-radius: 15px;
   border: solid 2px black;
   position: relative;
@@ -102,16 +103,31 @@ header {
   padding: 4% 2%;
   background-color: #2f504d;
   color: #bfbf5d;
-  float: left;
-  opacity: 0; }
-  .description img:nth-child(1) {
-    display: none; }
-  .description img:nth-child(2) {
-    display: none; }
-  .description img:nth-child(3) {
-    display: block; }
-  .description img:nth-child(4) {
-    display: none; }
+  float: left; }
+
+#img1 {
+  display: block; }
+
+#img2 {
+  display: none; }
+
+#img3 {
+  display: block; }
+
+#img4 {
+  display: none; }
+
+#ad1 {
+  display: block; }
+
+#ad2 {
+  display: none; }
+
+#ad3 {
+  display: block; }
+
+#ad4 {
+  display: none; }
 
 #descr-right {
   float: right;
@@ -168,11 +184,26 @@ h3, input {
   height: 200px;
   display: none; }
 
-@media (max-width: 600px) {
+@media (max-width: 1100px) {
   #wrapper {
-    width: 600px; }
+    width: 800px; }
 
   header {
-    height: 101.25px; } }
+    height: 101.25px; }
+
+  #top-nav {
+    width: 100% ul;
+      width-float: left; } }
+@media (max-width: 763px) {
+  #wrapper {
+    width: 350px; }
+
+  header {
+    height: 101.25px; }
+
+  #top-nav {
+    width: 100%; }
+    #top-nav ul {
+      float: left; } }
 
 /*# sourceMappingURL=style.css.map */
