@@ -47,24 +47,48 @@ header {
     display: inline-block;
     margin: 0 15px 0 0;
   }
+  a {
+    text-decoration: none;
+  }
+  a:visited {
+    color: $fontColor2;
+  }
+}
+
+/* FAQ */
+#faq {
+  width: 600px;
+  margin: 0 auto;
+  padding: 50px 10px 10px 50px;
+  position: relative;
+  text-align: left;
+  h2 {
+    text-align: center;
+    font-family: $sanSerif;
+  }
 }
 
 /* Menu */
-.menu {
+#pricing {
   clear:both;
-  width: 300px;
-  height: 500px;
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
   background-color: $menuColor;
   color: $fontColor3;
-  position: absolute;
-  top: 75px;
-  left: 0px;
+  position: relative;
   display: none;
+  z-index:99;
+  li {
+    list-style: none;
+  }
 }
 
 /* Wrap the Carousel */
 #wrapCarousel {
-  margin: 11% 4.5% 0 3%;
+  margin: 11% 4.8% 0 6.5%;
   padding: 0;
   position: relative;
   float: left;
@@ -78,9 +102,10 @@ header {
 .description {
   width: 300px;
   border-radius: 15px;
+  border: solid 2px black;
   position: relative;
-  margin: 5% 0 15% 0;
-  padding: 3%;
+  margin: 5% 0 5.2% 0;
+  padding: 4% 2%;
   background-color: $menuColor;
   color: $fontColor3;
   float: left;
@@ -109,31 +134,9 @@ header {
   font-size: $logoFontSize;
   text-align: center;
 }
-/* Below the Fold */
-#below {
-  background-color: #backgroundColor;
-  font-size: $baseFontSize;
-  display: none;
-}
-
-/* Fun (API) area */
-#invite {
-  font-size: $headerFontSize;
-  display: none;
-}
 
 /* Message area */
 
-#trycya {
-  height: 500px;
-  width: 300px;
-  position:absolute;
-  top: 200px;
-  right: 150px;
-  background-color: rgba(255, 252, 0,.7);
-  display: none;
-
-}
 
 #message_area {
   margin: 5%;
@@ -145,9 +148,13 @@ header {
 /* Footer */
 footer {
     clear: both;
-    font-size: #smallFont;
-    color: fontColor3;
-    display: none;
+    font-size: $smallFontSize;
+    color: $fontColor3;
+    display: both;
+    background-color: $headerColor;
+    height:75px;
+    width: 100%;
+    padding-top: 1%;
   #copyright {
       float: left;
   }
@@ -155,7 +162,10 @@ footer {
     float: right;
   }
 }
-
+#footer-stuff {
+  width: 1200px;
+  margin: 0 auto;
+}
 
 /* Registration Form */
 
