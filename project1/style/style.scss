@@ -33,6 +33,14 @@ header {
   .link {
     font-size: $headerFontSize * .75;
   }
+  a {
+    color: $fontColor2;
+    text-decoration: none;
+  }
+  a:visited {
+    color: $fontColor2;
+  }
+
 }
 
 /* Top Navigation */
@@ -47,19 +55,13 @@ header {
     display: inline-block;
     margin: 0 15px 0 0;
   }
-  a {
-    text-decoration: none;
-  }
-  a:visited {
-    color: $fontColor2;
-  }
 }
 
 /* FAQ */
 #faq {
   width: 600px;
   margin: 0 auto;
-  padding: 50px 10px 10px 50px;
+  padding: 8% 8% 12% 8%;
   position: relative;
   text-align: left;
   h2 {
@@ -86,6 +88,10 @@ header {
   }
 }
 
+#ad1, #img1, #ad2, #img2, #ad3, #img3 {
+  display: none;
+}
+
 /* Wrap the Carousel */
 #wrapCarousel {
   margin: 11% 4.8% 0 6.5%;
@@ -104,7 +110,7 @@ header {
   border-radius: 15px;
   border: solid 2px black;
   position: relative;
-  margin: 5% 0 5.2% 0;
+  margin: 5% 0 12% 0;
   padding: 4% 2%;
   background-color: $menuColor;
   color: $fontColor3;
@@ -121,11 +127,11 @@ header {
   img:nth-child(4) {
     display: none;
   }
-
+  opacity: 0;
 }
 #descr-right {
   float: right;
-  //margin: 25% 0 15% 0;
+  opacity: 1;
 }
 
 #logo {
@@ -152,7 +158,7 @@ footer {
     color: $fontColor3;
     display: both;
     background-color: $headerColor;
-    height:75px;
+    height:750px;
     width: 100%;
     padding-top: 1%;
   #copyright {
@@ -165,6 +171,14 @@ footer {
 #footer-stuff {
   width: 1200px;
   margin: 0 auto;
+  a {
+    color: $fontColor2;
+    text-decoration: none;
+  }
+  a:visited {
+    color: $fontColor2;
+  }
+
 }
 
 /* Registration Form */
@@ -183,4 +197,10 @@ h3, input {
   width: 250px;
   height: 200px;
   display: none;
+}
+
+@media (min-width: 320px) {
+  #wrapper {
+    width: 320px;
+  }
 }

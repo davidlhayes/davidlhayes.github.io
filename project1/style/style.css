@@ -3,6 +3,7 @@
 /* Font Families */
 /* Font Sizes */
 /* Dimensions */
+/* Devices */
 /* Background */
 body {
   margin: 0 auto;
@@ -33,6 +34,11 @@ header {
     float: left; }
   header .link {
     font-size: 1.125rem; }
+  header a {
+    color: #dfc957;
+    text-decoration: none; }
+  header a:visited {
+    color: #dfc957; }
 
 /* Top Navigation */
 #top-nav ul {
@@ -43,16 +49,12 @@ header {
 #top-nav li {
   display: inline-block;
   margin: 0 15px 0 0; }
-#top-nav a {
-  text-decoration: none; }
-#top-nav a:visited {
-  color: #dfc957; }
 
 /* FAQ */
 #faq {
   width: 600px;
   margin: 0 auto;
-  padding: 50px 10px 10px 50px;
+  padding: 8% 8% 12% 8%;
   position: relative;
   text-align: left; }
   #faq h2 {
@@ -75,6 +77,9 @@ header {
   #pricing li {
     list-style: none; }
 
+#ad1, #img1, #ad2, #img2, #ad3, #img3 {
+  display: none; }
+
 /* Wrap the Carousel */
 #wrapCarousel {
   margin: 11% 4.8% 0 6.5%;
@@ -91,11 +96,12 @@ header {
   border-radius: 15px;
   border: solid 2px black;
   position: relative;
-  margin: 5% 0 5.2% 0;
+  margin: 5% 0 12% 0;
   padding: 4% 2%;
   background-color: #2f504d;
   color: #bfbf5d;
-  float: left; }
+  float: left;
+  opacity: 0; }
   .description img:nth-child(1) {
     display: none; }
   .description img:nth-child(2) {
@@ -106,7 +112,8 @@ header {
     display: none; }
 
 #descr-right {
-  float: right; }
+  float: right;
+  opacity: 1; }
 
 #logo {
   font-family: "Oswald", sans-serif;
@@ -127,7 +134,7 @@ footer {
   color: #bfbf5d;
   display: both;
   background-color: #963300;
-  height: 75px;
+  height: 750px;
   width: 100%;
   padding-top: 1%; }
   footer #copyright {
@@ -138,6 +145,11 @@ footer {
 #footer-stuff {
   width: 1200px;
   margin: 0 auto; }
+  #footer-stuff a {
+    color: #dfc957;
+    text-decoration: none; }
+  #footer-stuff a:visited {
+    color: #dfc957; }
 
 /* Registration Form */
 /* Legal */
@@ -153,5 +165,9 @@ h3, input {
   width: 250px;
   height: 200px;
   display: none; }
+
+@media (min-width: 320px) {
+  #wrapper {
+    width: 320px; } }
 
 /*# sourceMappingURL=style.css.map */
