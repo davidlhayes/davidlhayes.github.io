@@ -16,6 +16,29 @@ $(document).ready(function() {
 
   });
 
+
+  $('#inquiries').click(function() {
+    console.log("hello");
+    $('#contact_form_wrapper').hide().slideDown('slow');
+  });
+
+
+  $('#contact_dismiss').click(function() {
+    console.log("hello");
+    $('#contact_form_wrapper').show().slideUp('slow');
+  });
+
+  $('#pricing_select').click(function() {
+    console.log("hello");
+    $('#pricing').hide().slideDown('slow');
+  });
+
+  $('#pricing_dismiss').click(function() {
+    console.log("hello");
+    $('#pricing').show().slideUp('slow');
+  });
+
+
 });
 
 var app = app || {};
@@ -62,10 +85,3 @@ app.sendEmail = function(emailData) {
   $.ajax(ajaxData);
 
 }
-
-  // retJson.first_name = $('#first_name').val();
-  // retJson.last_name = $('#last_name').val();
-  // retJson.user_email = $('#user_email').val();
-  // retJson.user_phone = $('#user_phone').val();
-  // retJson.movie = $('#movie').val();
-  // retJson.adventure = $('#heist').val();

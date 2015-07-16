@@ -18,15 +18,15 @@
         <h2 id=#slogan><a href="index.html">make your imagination happy&trade;</a></h2>
         <nav id="top-nav">
           <ul>
-            <li>INQUIRIES</li>
+            <li id="inquiries">INQUIRIES</li>
             <li><a href="faq.html">FAQ</a></li>
-            <li>PRICING</li>
+            <li id="pricing_select">PRICING</li>
           </ul>
         </nav>
       </header>
           <aside id="contact_form_wrapper">
             <div id="contact_form">
-              <h3>Inquiries</h3>
+              <h3>INQUIRIES</h3>
               <label for="user_name">Your Name</label>
               <input type="text" id="user_name" placeholder="Full Name"><br>
               <label for="user_email">E-mail Address</label>
@@ -34,15 +34,17 @@
               <input type="email" id="user_email" placeholder="somebody@something.com"><br>
               <label for="user_phone">Phone Number</label>
               <input type="tel" name="user_phone" placeholder="###-###-#####"><br>
-              <label for="user_request">Please tell us what adventure interests you</label>
-              <input type="user_request" id="user_request" placeholder="user_request"><br>
+              <input type="radio" name="adventure" value="heist">The Bank Heist</input><br>
+              <input type="radio" name="adventure"value="spy">Spy Hunter</input><br>
+              <input type="radio" name="adventure"value="time">Time Travel Phone Booth</input><br>
+              <input type="radio" name="adventure"value="pirate">Pirate Plunder</input><br>
+              <label for="user_request">What's the best time and day to call you?</label>
+              <input type="user_request" id="user_request" placeholder="e.g., tomorrow morning @ 9"><br>
 
-              <input type="submit" id="form_send" name="name" value="Contact us now!">
+              <input type="submit" id="form_send" name="send_contact" value="Contact us now!">
+              <input type="submit" id="contact_dismiss" name="dismiss_contact" value="Dismiss">
 
-              <div class="loading">
-                Your request is in transit... loading...
-                insert spinner graphic here
-              </div>
+              <div class="loading">...transmtting...</div>
 
               <div class="success">
                 <h2>Your message was sent!</h2>
@@ -54,7 +56,7 @@
             </div>
           </aside><!-- contact form which slides down -->
 
-        <!-- A slide down panel -->
+        <!-- A slide down pricing display -->
         <section id="pricing">
           <h2>PRICING</h2>
           <ul>
@@ -63,6 +65,7 @@
             <li><strong>Spy Hunter</strong>...............................................$9,450</li>
             <li><strong>Phone Booth Time Machine</strong>.................$11,150</li>
           </ul>
+          <input type="submit" id="pricing_dismiss" name="pricing_dismiss" value="dismiss">
         </section>
         <!-- begin content below the header -->
     <div id="wrapper">
@@ -102,8 +105,8 @@
               <!-- <div class="nav">
                   <div class="left arrow"></div>
                   <div class="right arrow"></div>
-              </div> -->
-              <section id="logo"><p>Choose Your Adventure</p></section>
+              </div>
+              <section id="logo"><p>Choose Your Adventure</p></section> -->
         </section>
 
         <aside class="description"id="descr-right">
@@ -120,7 +123,7 @@
           </p>
         </aside>
       </main>
-      <!-- <section id="viewer"></section> -->
+      <section id="viewer"></section>
 
 
     </div>

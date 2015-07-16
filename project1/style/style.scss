@@ -6,7 +6,6 @@ body {
   background-image: url("../assets/images/maze-sky-background.jpg");
   background-position: center top;
   background-repeat: repeat-y;
-  overflow: hidden;
   width: 100%;
   position: relative;
 
@@ -75,9 +74,10 @@ header {
 #pricing, #contact_form_wrapper {
   clear:both;
   width: 100%;
-  height: 200px;
+  height: 250px;
   margin: 0 auto;
   padding: 5px;
+  font-family: $sanSerif;
   background-color: $menuColor;
   color: $fontColor3;
   position: relative;
@@ -90,20 +90,41 @@ header {
   text-align: center;
 }
 #contact_form_wrapper {
-  display: block;
+  display: none;
   width: 100%;
   margin: 0 auto;
+  height: 460px;
 }
 
 #contact_form {
   width: 500px;
+  margin: 0 auto;
+  line-height: 2rem;
+  h3 {
+    text-align: center;
+  }
   input {
+    float: right;
+    width: 300px;
     background-color: white;
   }
   text-align: left;
   padding: 5px;
 }
+#user_request  {
+  width: 450px;
+}
+#inquiries:hover, #contact_dismiss:hover, #pricing_select, #pricing_dismiss, #pricing_dimiss:hover {
+    cursor: pointer;
+}
 
+#form_send, #contact_dismiss, #pricing_dismiss {
+  margin-top: 15px;
+  background-color: $headerColor !important;
+  color: $fontColor2;
+  border: solid 1px black;
+  border-radius: 15px;
+}
 #ad1, #img1, #ad2, #img2, #ad3, #img3 {
   display: none;
 }
@@ -171,16 +192,6 @@ header {
   text-align: center;
 }
 
-/* Message area */
-
-
-#message_area {
-  margin: 5%;
-  display: none;
-}
-
-/* Reply area */
-
 /* Footer */
 footer {
     clear: both;
@@ -214,11 +225,13 @@ footer {
 /* Registration Form */
 
 /* Legal */
+h3 {
+  font-size: 1rem;
 
-h3, input {
+}
+input {
   font-size: 1rem;
   width: 120px;
-  display: none;
 }
 #inputBox {
   border: solid 2px black;
