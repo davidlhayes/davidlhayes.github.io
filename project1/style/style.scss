@@ -200,6 +200,11 @@ h3, input {
   display: none;
 }
 
+@media (max-width: $device-tablet) {
+  #wrapper {
+    width: $device-tablet;
+}
+
 @media (max-width: $device-phone) {
   #wrapper {
     width: $device-phone;
