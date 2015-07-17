@@ -16,17 +16,60 @@
   <body>
     <div id="header-wrapper">
       <header>
-        <h2 id=#slogan><a href="index.html">make your imagination happy&trade;</a></h2>
-        <img id="top-logo" src="assets/images/cya-logo.png">
+        <h2>make your imagination happy&trade;</h2>
+        <a href="index.html"><img id="top-logo" src="assets/images/cya-logo.png"></a>
         <nav id="top-nav">
           <ul>
-            <li id="inquiries">INQUIRIES</li> <!-- JavaScript action -->
+            <li id="faq-inquiries">INQUIRIES</li> <!-- JavaScript action -->
             <li><a href="faq.html">FAQ</a></li>
-            <li id="pricing_select">PRICING</li> <!--JavaScript action -->
+            <li id="faq-pricing_select">PRICING</li> <!--JavaScript action -->
           </ul>
         </nav>
       </header>
     </div>
+    <aside id="contact_form_wrapper">
+      <div id="contact_form">
+        <h3>INQUIRIES</h3>
+        <label for="user_name">Your Name</label>
+        <input type="text" id="user_name" placeholder="Full Name"><br>
+        <label for="user_email">E-mail Address</label>
+        <input type="email" id="user_email" placeholder="somebody@something.com"><br>
+        <label for="user_phone">Phone Number</label>
+        <input type="tel" name="user_phone" placeholder="###-###-#####"><br>
+        <input type="radio" name="adventure" value="heist">The Bank Heist</input><br>
+        <input type="radio" name="adventure"value="spy">Spy Hunter</input><br>
+        <input type="radio" name="adventure"value="time">Time Travel Phone Booth</input><br>
+        <input type="radio" name="adventure"value="pirate">Pirate Plunder</input><br>
+        <label for="user_request">What's the best time and day to call you?</label>
+        <input type="user_request" id="user_request" placeholder="e.g., tomorrow morning @ 9"><br>
+
+        <input type="submit" id="form_send" name="send_contact" value="Contact us now!">
+        <input type="submit" id="contact_dismiss" name="dismiss_contact" value="Dismiss">
+
+        <div class="loading">...transmitting...</div>
+
+        <div class="success">
+          <h2>Your message was sent!</h2>
+        </div>
+
+        <div class="error">
+          <h2>Your message failed to send...</h2>
+        </div>
+      </div>
+    </aside><!-- contact form which slides down -->
+
+      <!-- A slide down pricing display -->
+      <section id="pricing">
+        <h2>PRICING</h2>
+        <ul>
+          <li><strong>The Bank Heist</strong>......................................$12,375</li>
+          <li><strong>Pirate Plunder</strong>........................................$14,500</li>
+          <li><strong>Spy Hunter</strong>...............................................$9,450</li>
+          <li><strong>Phone Booth Time Machine</strong>.................$11,150</li>
+        </ul>
+        <input type="submit" id="pricing_dismiss" name="pricing_dismiss" value="Dismiss">
+      </section>
+      <!-- begin content below the header -->
       <div id="wrapper">
         <aside id="faq">
             <h2>Frequently Asked Questions</h2>

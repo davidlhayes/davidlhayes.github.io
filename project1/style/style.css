@@ -114,7 +114,8 @@ header {
 #user_request {
   width: 450px; }
 
-#inquiries:hover, #contact_dismiss:hover, #pricing_select, #pricing_dismiss, #pricing_dimiss:hover {
+#inquiries:hover, #contact_dismiss:hover, #pricing_select, #pricing_dismiss, #pricing_dimiss:hover,
+#ph1, #ph2, #ph3, #ph4 {
   cursor: pointer; }
 
 #form_send, #contact_dismiss, #pricing_dismiss {
@@ -207,8 +208,6 @@ footer {
   #footer-stuff a:visited {
     color: #dfc957; }
 
-/* Registration Form */
-/* Legal */
 h3 {
   font-size: 1rem; }
 
@@ -224,28 +223,180 @@ input {
   height: 200px;
   display: none; }
 
-@media (max-width: 1100px) {
-  #wrapper {
-    width: 800px; }
+.phone_panel {
+  display: none; }
 
-  header {
-    height: 101.25px; }
-
-  #top-nav {
-    width: 100% ul;
-      width-float: left; } }
+/* Media Query! */
 @media (max-width: 763px) {
   #wrapper {
-    width: 350px; }
+    margin: 0 auto;
+    width: 500px; }
+
+  /* Header */
+  #header-wrapper {
+    width: 100%;
+    height: 75px;
+    background-color: #963300; }
+    #header-wrapper h2 {
+      padding-left: 5%; }
 
   header {
-    height: 101.25px; }
+    margin: 0 auto;
+    width: 100%;
+    color: #dfc957;
+    font-family: "Oswald", sans-serif; }
+    header img {
+      background-color: #963300;
+      float: left;
+      margin: 0 auto;
+      padding: 0 28%; }
+    header h2 {
+      font-size: #headerFontSize;
+      color: #fontColor3;
+      margin: 0;
+      padding-top: 20px;
+      padding-left: 25px;
+      float: left; }
+    header .link {
+      font-size: 1.125rem; }
+    header a {
+      color: #dfc957;
+      text-decoration: none; }
+    header a:visited {
+      color: #dfc957; }
 
   #top-nav {
-    width: 100%; }
-    #top-nav ul {
-      float: left; } }
-#legal-copy {
-  height: 500px; }
+    padding-left: 75px;
+    color: #963300; }
+    #top-nav a {
+      color: #963300; }
+    #top-nav a:visited {
+      color: #963300; }
+
+  /* Wrap the Carousel */
+  #wrapCarousel {
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    text-align: center; }
+    #wrapCarousel img {
+      margin: 0 auto; }
+
+  .phone_panel {
+    display: block; }
+
+  #phText {
+    clear: both;
+    margin-left: 26%; }
+
+  .phone_buttons {
+    float: left;
+    margin-left: 1.5%;
+    margin-right: 0;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 5px;
+    display: relative;
+    font-family: "Oswald", sans-serif;
+    font-size: 0.75rem;
+    width: 180px;
+    border: solid 1px #963300;
+    border-radius: 15px;
+    background-color: #bfbf5d; }
+
+  #contact_form {
+    font-size: 0.75rem;
+    width: 400px; }
+
+  /* Description Panel */
+  #descr-left, #descr-right {
+    display: none; }
+
+  #img1 {
+    display: none; }
+
+  #img2 {
+    display: none; }
+
+  #img3 {
+    display: none; }
+
+  #img4 {
+    display: block; }
+
+  #ad1 {
+    display: none; }
+
+  #ad2 {
+    display: none; }
+
+  #ad3 {
+    display: none; }
+
+  #ad4 {
+    display: block; }
+
+  #descr-left {
+    float: left;
+    opacity: 0; }
+
+  #descr-right {
+    float: left;
+    opacity: 0; }
+
+  #logo {
+    font-family: "Oswald", sans-serif;
+    color: #963300;
+    font-size: 2rem; }
+
+  #ph4 {
+    margin-bottom: 15px; }
+
+  #phone_descr {
+    clear: both;
+    background-color: #2f504d;
+    display: block;
+    margin: 0 auto;
+    border: solid 1px black;
+    border-radius: 15px;
+    font-family: "Quattrocento", serif;
+    color: fontColor3;
+    padding: 15px;
+    width: 300px; }
+
+  #faq {
+    width: 300px; }
+
+  #legal-copy {
+    width: 300px; }
+
+  /* Footer */
+  footer {
+    clear: both;
+    font-size: 0.75rem;
+    color: #bfbf5d;
+    display: both;
+    background-color: #963300;
+    height: 750px;
+    margin-top: 15px;
+    width: 100%;
+    padding-top: 1%;
+    padding-left: 5%; }
+    footer #copyright {
+      float: left; }
+    footer #legal {
+      float: left;
+      margin-left: 5px; }
+
+  #footer-stuff {
+    width: 1200px;
+    margin: 0 auto; }
+    #footer-stuff a {
+      color: #dfc957;
+      text-decoration: none; }
+    #footer-stuff a:visited {
+      color: #dfc957; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -7,7 +7,7 @@
     <!-- add stylesheet -->
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/impulseslider.css">
-    <link rel="shortcut icon" href="assets/images/cya.ico"/>  
+    <link rel="shortcut icon" href="assets/images/cya.ico"/>
     <!-- add scripts -->
     <script src="scripts/jquery.js"></script>
     <script src="scripts/jquery.impulse.slider.js"></script>
@@ -17,8 +17,8 @@
   <body>
       <div id="header-wrapper">
         <header>
-          <h2 id=#slogan><a href="index.html">make your imagination happy&trade;</a></h2>
-          <img id="top-logo" src="assets/images/cya-logo.png">
+          <h2>make your imagination happy&trade;</h2>
+          <a href="index.html"><img id="top-logo" src="assets/images/cya-logo.png"></a>
           <nav id="top-nav">
             <ul>
               <li id="inquiries">INQUIRIES</li> <!-- JavaScript action -->
@@ -47,7 +47,7 @@
           <input type="submit" id="form_send" name="send_contact" value="Contact us now!">
           <input type="submit" id="contact_dismiss" name="dismiss_contact" value="Dismiss">
 
-          <div class="loading">...transmtting...</div>
+          <div class="loading">...transmitting...</div>
 
           <div class="success">
             <h2>Your message was sent!</h2>
@@ -68,9 +68,21 @@
             <li><strong>Spy Hunter</strong>...............................................$9,450</li>
             <li><strong>Phone Booth Time Machine</strong>.................$11,150</li>
           </ul>
-          <input type="submit" id="pricing_dismiss" name="pricing_dismiss" value="dismiss">
+          <input type="submit" id="pricing_dismiss" name="pricing_dismiss" value="Dismiss">
         </section>
         <!-- begin content below the header -->
+        <!-- phone-only -->
+          <h3 class="phone_panel" id="phText">Choose Your Adventure Now!</h3>
+          <div class="phone_panel phone_buttons" id="ph1">Phone Booth Time Machine</div>
+          <div class="phone_panel phone_buttons" id="ph2">Spy Hunter</div>
+          <div class="phone_panel phone_buttons" id="ph3">Pirate Plunder</div>
+          <div class="phone_panel phone_buttons" id="ph4">The Bank Heist</div>
+          <div class="phone_panel id="phone_spacer"></div>
+          <div class="phone_panel" id="phone_descr"></div>
+
+
+
+        <!-- end phone portion -->
     <div id="wrapper">
       <main>
       <aside id="descr-left"></aside>

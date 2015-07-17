@@ -127,7 +127,8 @@ header {
 #user_request  {
   width: 450px;
 }
-#inquiries:hover, #contact_dismiss:hover, #pricing_select, #pricing_dismiss, #pricing_dimiss:hover {
+#inquiries:hover, #contact_dismiss:hover, #pricing_select, #pricing_dismiss, #pricing_dimiss:hover,
+#ph1, #ph2, #ph3, #ph4 {
     cursor: pointer;
 }
 
@@ -235,9 +236,6 @@ footer {
 
 }
 
-/* Registration Form */
-
-/* Legal */
 h3 {
   font-size: 1rem;
 
@@ -255,36 +253,210 @@ input {
   display: none;
 }
 
-@media (max-width: $device-tablet) {
-  #wrapper {
-    width: 800px;
+.phone_panel {
+  display: none;
 }
-header {
-  height: $headerHeight * 1.35;
-}
-#top-nav {
-  width: 100%
-  ul {
-    float: left;
-  }
-}
-}
+
+/* Media Query! */
 
 @media (max-width: $device-phone) {
   #wrapper {
-    width: 350px;
-}
-header {
-  height: $headerHeight * 1.35;
-}
-#top-nav {
-  width: 100%;
-  ul {
-    float: left;
+    margin: 0 auto;
+    width: 500px;
   }
+
+  /* Header */
+  #header-wrapper {
+    width: 100%;
+    height: $headerHeight;
+    background-color: $headerColor;
+    h2 {
+      padding-left: 5%;
+    }
+  }
+  header {
+    margin: 0 auto;
+    width: 100%;
+    color: $fontColor2;
+    font-family: $sanSerif;
+    img {
+      background-color: $headerColor;
+      float:left;
+      margin: 0 auto;
+      padding: 0 28%;
+    }
+    h2 {
+      font-size: #headerFontSize;
+      color: #fontColor3;
+      margin: 0;
+      padding-top: 20px;
+      padding-left: 25px;
+      float: left;
+    }
+    .link {
+      font-size: $headerFontSize * .75;
+    }
+    a {
+      color: $fontColor2;
+      text-decoration: none;
+    }
+    a:visited {
+      color: $fontColor2;
+    }
+  }
+  #top-nav {
+    padding-left: 75px;
+    color: $logoFontColor;
+    a {
+      color: $logoFontColor;
+    }
+    a:visited {
+      color: $logoFontColor;
+    }
+  }
+
+  /* Wrap the Carousel */
+  #wrapCarousel {
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    text-align: center;
+    img {
+      margin: 0 auto;
+    }
+  }
+
+.phone_panel {
+      display: block;
 }
+#phText {
+  clear: both;
+  margin-left: 26%;
+}
+.phone_buttons {
+  float: left;
+  margin-left: 1.5%;
+  margin-right: 0;
+  margin-bottom: 5px;
+  text-align: center;
+  padding: 5px;
+  display: relative;
+  font-family: $sanSerif;
+  font-size: $smallFontSize;
+  width: 180px;
+  border: solid 1px $headerColor;
+  border-radius: 15px;
+  background-color: $fontColor3;
 }
 
-#legal-copy {
-  height: 500px;
+#contact_form {
+  font-size: $smallFontSize;
+  width: 400px;
+  
+}
+
+  /* Description Panel */
+  #descr-left, #descr-right {
+    display: none;
+  }
+
+  #img1 {
+    display: none;
+  }
+  #img2 {
+    display: none;
+  }
+  #img3 {
+    display: none;
+  }
+  #img4 {
+    display: block;
+  }
+
+  #ad1 {
+    display: none;
+  }
+  #ad2 {
+    display: none;
+  }
+  #ad3 {
+    display: none;
+  }
+  #ad4 {
+    display: block;
+  }
+  #descr-left {
+    float: left;
+    opacity: 0;
+  }
+  #descr-right {
+    float: left;
+    opacity: 0;
+  }
+
+  #logo {
+    font-family: $sanSerif;
+    color: $logoFontColor;
+    font-size: $logoFontSize;
+  }
+
+  #ph4 {
+    margin-bottom: 15px;
+  }
+
+  #phone_descr {
+    clear: both;
+    background-color: $menuColor;
+    display: block;
+    margin: 0 auto;
+    border: solid 1px black;
+    border-radius: 15px;
+    font-family: $serif;
+    color: fontColor3;
+    padding: 15px;
+    width: 300px;
+  }
+  #faq {
+    width: 300px;
+  }
+  #legal-copy {
+    width: 300px;
+  }
+
+  /* Footer */
+  footer {
+      clear: both;
+      font-size: $smallFontSize;
+      color: $fontColor3;
+      display: both;
+      background-color: $headerColor;
+      height:750px;
+      margin-top: 15px;
+      width: 100%;
+      padding-top: 1%;
+      padding-left: 5%;
+    #copyright {
+        float: left;
+    }
+    #legal {
+      float: left;
+      margin-left: 5px;
+    }
+  }
+  #footer-stuff {
+    width: 1200px;
+    margin: 0 auto;
+    a {
+      color: $fontColor2;
+      text-decoration: none;
+    }
+    a:visited {
+      color: $fontColor2;
+    }
+
+  }
+
+
 }
