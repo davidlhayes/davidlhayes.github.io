@@ -41,33 +41,6 @@
   $('#pricing_dismiss').click(function() {
     $('#pricing').show().slideUp('slow');
   });
-  // legal buttons
-  $('#legal-inquiries').click(function() {
-    $('#contact_form_wrapper').hide().slideDown('slow');
-  });
-  $('#legal-contact_dismiss').click(function() {
-    $('#contact_form_wrapper').show().slideUp('slow');
-  });
-  $('#legal-pricing_select').click(function() {
-    $('#pricing').hide().slideDown('slow');
-  });
-  $('#legal-pricing_dismiss').click(function() {
-    $('#pricing').show().slideUp('slow');
-  });
-  // faq buttons
-  $('#faq-inquiries').click(function() {
-    $('#contact_form_wrapper').hide().slideDown('slow');
-  });
-  $('#contact_dismiss').click(function() {
-    $('#contact_form_wrapper').show().slideUp('slow');
-  });
-  $('#faq-pricing-select').click(function() {
-    $('#pricing').hide().slideDown('slow');
-  });
-  $('#faq-pricing_dismiss').click(function() {
-    $('#pricing').show().slideUp('slow');
-  });
-
 
 // Adventure data
 
@@ -114,7 +87,7 @@ $('.four').click(function() {
   $('#descr-right').fadeTo(2000,1);
 });
 
-// Phone functions
+// Phone functions (simple buttons instead of the rotating cube)
 $('#ph1').click(function() {
   htmlstring = '<img src="assets/images/' + phonebooth.adv_img
     + '"><p>"' + phonebooth.adv_text + '"</p>';

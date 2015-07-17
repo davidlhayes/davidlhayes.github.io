@@ -29,3 +29,17 @@ Technologies used:
 The Ajax call is employed in the handling of the contact form. A remote server sends e-mail to the address provided on the form when the submit button is clicked.
 
 Responsive design is employed. At a very narrow screen width, the cube is replaced with an array of buttons. Adventure pictures and descriptions appear below the buttons.
+
+One particular challenge of this project was to present a variety of information in the same space, space would fade in and out. An image was associate with a description and a face on the rotating cube that is the centerpiece of landing page. Each adventure name was defined as an object containing the image file name and the adventure description text.
+
+The rotating cube uses a plugin. It's supplied mages were swapped out and the presented cube was reduced to a more appropriate size. The contact form was based on a class example. The remaining code is original to this project.
+
+![Screen Shot](http://www.davidhayescreative.com/adventure/assets/images/screencode.png)
+
+#Version 2.0 wish list
+
+* forms that float on top of the page, rather than slide it away
+* more animation with menus and such
+* more developed style, suggesting that "Choose Your Adventure" is some sort of steampunk wish mechanism
+* A more complete registration process
+* Social media icon menu
