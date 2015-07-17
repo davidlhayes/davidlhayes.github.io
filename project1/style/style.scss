@@ -16,11 +16,21 @@ body {
 }
 
 /* Header */
-header {
+#header-wrapper {
+  width: 100%;
   height: $headerHeight;
   background-color: $headerColor;
+}
+header {
+  margin: 0 auto;
+  width: 1200px;
   color: $fontColor2;
   font-family: $sanSerif;
+  img {
+    float:left;
+    margin: 0 8%;
+    padding: 0;
+  }
   h2 {
     font-size: #headerFontSize;
     color: #fontColor3;
@@ -44,21 +54,24 @@ header {
 
 /* Top Navigation */
 #top-nav {
-  background-color: $headerColor;
+  margin: 0;
+  padding: 0;
+  display: block;
+  background-color: yellow;
   ul {
-    float: right;
+    float: left;
     margin-top: 25px;
-    margin-left: 3%;
-    margin-right: 10%;
+    margin-left: 1%;
+    margin-right: 1%;
   }
   li {
-    display: inline-block;
+    display:inline;
     margin: 0 15px 0 0;
   }
 }
 
 /* FAQ */
-#faq {
+#faq, #legal-copy {
   width: 600px;
   margin: 0 auto;
   padding: 8% 8% 12% 8%;
@@ -125,13 +138,11 @@ header {
   border: solid 1px black;
   border-radius: 15px;
 }
-#ad1, #img1, #ad2, #img2, #ad3, #img3 {
-  display: none;
-}
+
 
 /* Wrap the Carousel */
 #wrapCarousel {
-  margin: 11% 4.8% 0 7%;
+  margin: 11% 0 0 2.2%;
   padding: 0;
   position: relative;
   float: left;
@@ -142,7 +153,7 @@ header {
 }
 
 /* Description Panel */
-.description {
+#descr-left, #descr-right {
   width: 300px;
   height: 475px;
   border-radius: 15px;
@@ -152,44 +163,46 @@ header {
   padding: 4% 2%;
   background-color: $menuColor;
   color: $fontColor3;
-  float: left;
 }
 
 #img1 {
-  display: block;
+  display: none;
 }
 #img2 {
   display: none;
 }
 #img3 {
-  display: block;
+  display: none;
 }
 #img4 {
-  display: none;
+  display: block;
 }
 
 #ad1 {
-  display: block;
+  display: none;
 }
 #ad2 {
   display: none;
 }
 #ad3 {
-  display: block;
+  display: none;
 }
 #ad4 {
-  display: none;
+  display: block;
+}
+#descr-left {
+  float: left;
+  opacity: 0;
 }
 #descr-right {
   float: right;
-  opacity: 1;
+  opacity: 0;
 }
 
 #logo {
   font-family: $sanSerif;
   color: $logoFontColor;
   font-size: $logoFontSize;
-  text-align: center;
 }
 
 /* Footer */
@@ -270,4 +283,8 @@ header {
     float: left;
   }
 }
+}
+
+#legal-copy {
+  height: 500px;
 }

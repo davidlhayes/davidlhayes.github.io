@@ -2,7 +2,7 @@
     border-radius: 2px 2px 2px 2px;
     height: 24px;
     width: 24px;
-    position: absolute;
+    position: relative;
     margin-left: 3px;
     margin-top: 3px;
     cursor: pointer;
@@ -33,13 +33,13 @@
 
 
 .nav {
-    margin-left: 500px;
+    margin-left: 100px;
     margin-top: 60px;
 }
 
 /* Slider Styles */
 #cubeCarousel {
-      margin: 100px  0 auto 100px;
+      margin: 10%  0 auto 10%;
 }
 
  #cubeCarousel #cubeSpinner {

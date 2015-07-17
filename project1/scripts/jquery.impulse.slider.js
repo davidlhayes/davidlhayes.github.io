@@ -89,7 +89,6 @@ if(!window.console){ window.console = {log: function(){} }; }
             var imageDivClasses =  toStringArray(opts.imageDivClasses, defaults.imageDivClasses);
             var degreesRotation = toNumber(opts.degreesRotation, defaults.degreesRotation);
             var divs = new Array();
-
             // check if there are images defined
             // if so create divs with images and add them to the spinnerSelector div
             if (images.length != 0) {
@@ -300,7 +299,3 @@ if(!window.console){ window.console = {log: function(){} }; }
     }
 
 })(jQuery);
-
-
-
-

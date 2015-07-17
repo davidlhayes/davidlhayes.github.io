@@ -7,6 +7,7 @@
     <!-- add stylesheet -->
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/impulseslider.css">
+    <link rel="shortcut icon" href="assets/images/cya.ico"/>  
     <!-- add scripts -->
     <script src="scripts/jquery.js"></script>
     <script src="scripts/jquery.impulse.slider.js"></script>
@@ -14,47 +15,49 @@
 
   </head>
   <body>
-      <header>
-        <h2 id=#slogan><a href="index.html">make your imagination happy&trade;</a></h2>
-        <nav id="top-nav">
-          <ul>
-            <li id="inquiries">INQUIRIES</li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li id="pricing_select">PRICING</li>
-          </ul>
-        </nav>
-      </header>
-          <aside id="contact_form_wrapper">
-            <div id="contact_form">
-              <h3>INQUIRIES</h3>
-              <label for="user_name">Your Name</label>
-              <input type="text" id="user_name" placeholder="Full Name"><br>
-              <label for="user_email">E-mail Address</label>
+      <div id="header-wrapper">
+        <header>
+          <h2 id=#slogan><a href="index.html">make your imagination happy&trade;</a></h2>
+          <img id="top-logo" src="assets/images/cya-logo.png">
+          <nav id="top-nav">
+            <ul>
+              <li id="inquiries">INQUIRIES</li> <!-- JavaScript action -->
+              <li><a href="faq.html">FAQ</a></li>
+              <li id="pricing_select">PRICING</li> <!--JavaScript action -->
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <aside id="contact_form_wrapper">
+        <div id="contact_form">
+          <h3>INQUIRIES</h3>
+          <label for="user_name">Your Name</label>
+          <input type="text" id="user_name" placeholder="Full Name"><br>
+          <label for="user_email">E-mail Address</label>
+          <input type="email" id="user_email" placeholder="somebody@something.com"><br>
+          <label for="user_phone">Phone Number</label>
+          <input type="tel" name="user_phone" placeholder="###-###-#####"><br>
+          <input type="radio" name="adventure" value="heist">The Bank Heist</input><br>
+          <input type="radio" name="adventure"value="spy">Spy Hunter</input><br>
+          <input type="radio" name="adventure"value="time">Time Travel Phone Booth</input><br>
+          <input type="radio" name="adventure"value="pirate">Pirate Plunder</input><br>
+          <label for="user_request">What's the best time and day to call you?</label>
+          <input type="user_request" id="user_request" placeholder="e.g., tomorrow morning @ 9"><br>
 
-              <input type="email" id="user_email" placeholder="somebody@something.com"><br>
-              <label for="user_phone">Phone Number</label>
-              <input type="tel" name="user_phone" placeholder="###-###-#####"><br>
-              <input type="radio" name="adventure" value="heist">The Bank Heist</input><br>
-              <input type="radio" name="adventure"value="spy">Spy Hunter</input><br>
-              <input type="radio" name="adventure"value="time">Time Travel Phone Booth</input><br>
-              <input type="radio" name="adventure"value="pirate">Pirate Plunder</input><br>
-              <label for="user_request">What's the best time and day to call you?</label>
-              <input type="user_request" id="user_request" placeholder="e.g., tomorrow morning @ 9"><br>
+          <input type="submit" id="form_send" name="send_contact" value="Contact us now!">
+          <input type="submit" id="contact_dismiss" name="dismiss_contact" value="Dismiss">
 
-              <input type="submit" id="form_send" name="send_contact" value="Contact us now!">
-              <input type="submit" id="contact_dismiss" name="dismiss_contact" value="Dismiss">
+          <div class="loading">...transmtting...</div>
 
-              <div class="loading">...transmtting...</div>
+          <div class="success">
+            <h2>Your message was sent!</h2>
+          </div>
 
-              <div class="success">
-                <h2>Your message was sent!</h2>
-              </div>
-
-              <div class="error">
-                <h2>Your message failed to send...</h2>
-              </div>
-            </div>
-          </aside><!-- contact form which slides down -->
+          <div class="error">
+            <h2>Your message failed to send...</h2>
+          </div>
+        </div>
+      </aside><!-- contact form which slides down -->
 
         <!-- A slide down pricing display -->
         <section id="pricing">
@@ -70,21 +73,9 @@
         <!-- begin content below the header -->
     <div id="wrapper">
       <main>
-      <aside class="description">
-        <img id="img1" src="assets/images/pirate-action.png">
-        <p id="ad1">Want to live in a world that resembles some popular Johnny Depp movies? Enticed by the idea
-           of obscene treasure? There’s plenty of adventure aboard our pirate ship.
-            You may be a captain or you may lead the mutiny,
-             but somebody is definitely walking the plank!</p>
-        <img id="img2" src="assets/images/heist-action.png">
-        <p id="ad2">Banks these days tend to be so, so secure. It’s a good thing
-           you’ll have the technology, the tools, and the support team to plan a
-            robbery of staggering proportions. We can’t promise you’ll succeed or
-             walk home with millions of dollars to stash in a mattress, but the
-              adrenaline rush will be amazing!</p>
-      </aside>
-        <section id="wrapCarousel">
-        <!-- <div id="cubeCarousel">
+      <aside id="descr-left"></aside>
+          <section id="wrapCarousel">
+        <div id="cubeCarousel">
           <div id="cubeSpinner">
               <div class="face one">
                    <img class="img_slider active" src="assets/images/phonebooth.png">
@@ -99,29 +90,11 @@
                   <img class="img_slider" src="assets/images/vault.png">
               </div>
           </div>
-        </div> -->
-<!-- buttons to turn cube -->
-            <img id="placeholder" src="assets/images/vault.png">
-              <!-- <div class="nav">
-                  <div class="left arrow"></div>
-                  <div class="right arrow"></div>
-              </div>
-              <section id="logo"><p>Choose Your Adventure</p></section> -->
+        </div>
+        <section id="logo"><p>choose your adventure today!</p></section>
         </section>
 
-        <aside class="description"id="descr-right">
-        <img id="img3" src="assets/images/spy-action.png">
-        <p id="ad3">We’ll spill the beans right now. This experience starts with
-          a kidnapping: yours. Rest assured, one way or another, you’ll escape,
-          but in the process you’ll learn of larger threat and you’ll be the
-          only one who can stop.</p>
-        <img id="img4" src="assets/images/time-action.png">
-        <p id="ad4">Professor Copernicus Von Braun has converted a London call
-          box into a working time machine. The trouble is that it’s hard to say
-          exactly where you’ll end up. Rest assured, you’ll have the “time” of
-           your life AND a return trip to the present is guaranteed</p>
-          </p>
-        </aside>
+        <aside id="descr-right"></aside>
       </main>
       <section id="viewer"></section>
 
@@ -134,50 +107,5 @@
             </section>
           </footer>
 
-
-       <!-- Contact form (slides from left) -->
-          <!-- <h3>Registration</h3>
-          <label for="first_name">Your Name</label>
-          <select>
-            <option value="mr">Mr.</option>
-            <option value="mrs">Mrs.</option>
-            <option value="ms">Ms.</option>
-            <option value="miss">Miss</option>
-          </select>
-          <input type="text" id="first_name" placeholder="First Name">
-          <input type="text" id="last_name" placeholder="Last Name"><br>
-          <label for="street1" id="Address">
-          <input type="text" id="street1" placeholder="Street Address"><br>
-          <input type="text" id="street1" placeholder="Street Address (cont)"><br>
-          <input type="tel" id="user_phone" placeholder="Phone Number"><br>
-          <input type="email" id="user_email" placeholder="e-mail"><br>
-          <input type="user_request" id="user_request" placeholder="user_request"><br>
-          <input type="text" id="movie" placeholder="Name a movie that resembles the sort of experience you want to have?"><br>
-        <div id="inputBox">
-          <h5>Which adventure are you applying for?</h5>
-          <label for="heist">The Bank Heist</label>
-          <input type="radio" id="heist" value="heist" name="adv"><br>
-          <label for="spy">Spy Hunter</label>
-          <input type="radio" id="spy" value="spy" name="adv"><br>
-          <label for="pirates">Pirates</label>
-          <input type="radio" value="pirates" name="adv"><br>
-          <label for=""></label>
-        </div>
-
-          <input type="submit" id="form_send" name="name" value="Contact us now!">
-
-          <div class="loading">
-            Your request is in transit... loading...
-            insert spinner graphic here
-          </div>
-
-          <div class="success">
-            <h2>Your message was sent!</h2>
-          </div>
-
-          <div class="error">
-            <h2>Your message failed to send...</h2>
-        </div>
-      </div> -->
   </body>
 </html>
