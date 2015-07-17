@@ -235,7 +235,11 @@ footer {
   }
 
 }
-
+.address {
+  clear: both;
+  display: block;
+  text-align: left;
+}
 h3 {
   font-size: 1rem;
 
@@ -354,7 +358,7 @@ input {
 #contact_form {
   font-size: $smallFontSize;
   width: 400px;
-  
+
 }
 
   /* Description Panel */
@@ -423,6 +427,8 @@ input {
   }
   #legal-copy {
     width: 300px;
+    height: 1200px;
+    margin-botton: 100px;
   }
 
   /* Footer */

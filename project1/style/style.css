@@ -208,6 +208,11 @@ footer {
   #footer-stuff a:visited {
     color: #dfc957; }
 
+.address {
+  clear: both;
+  display: block;
+  text-align: left; }
+
 h3 {
   font-size: 1rem; }
 
@@ -370,7 +375,9 @@ input {
     width: 300px; }
 
   #legal-copy {
-    width: 300px; }
+    width: 300px;
+    height: 1200px;
+    margin-botton: 100px; }
 
   /* Footer */
   footer {
