@@ -1,4 +1,3 @@
-
     $(window).load(function(){
       $('#cubeSpinner').impulseslider({
             height: 250,
@@ -24,8 +23,6 @@
     console.log('Clicked form submit...');
     app.sendEmail(formdata);
 
-
-
   });
 
 // buttons
@@ -40,6 +37,12 @@
   });
   $('#pricing_dismiss').click(function() {
     $('#pricing').show().slideUp('slow');
+  });
+  $('nav li, nav li a').mouseover(function(){
+    $(this).css("color","white");
+  });
+  $('nav li, nav li a').mouseout(function() {
+    $(this).css("color","rgb(223, 201, 87)");
   });
 
 // Adventure data
