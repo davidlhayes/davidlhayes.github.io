@@ -34,7 +34,25 @@ One particular challenge of this project was to present a variety of information
 
 The rotating cube uses a plugin. It's supplied mages were swapped out and the presented cube was reduced to a more appropriate size. The contact form was based on a class example. The remaining code is original to this project.
 
-![Screen Shot](http://www.davidhayescreative.com/adventure/assets/images/screencode.png)
+```js
+// Adventure data
+
+var pirate = { adv_img : "pirate-action.png", adv_text : "Want to live in a world that resembles some popular Johnny Depp movies? Enticed by the idea of obscene treasure? There’s plenty of adventure aboard our pirate ship. You may be a captain or you may lead the mutiny, but somebody is definitely walking the plank!"};
+var heist = { adv_img : "heist-action.png", adv_text : "Banks these days tend to be so, so secure. It’s a good thing you’ll have the technology, the tools, and the support team to plan a robbery of staggering proportions. We can’t promise you’ll succeed or walk home with millions of dollars to stash in a mattress, but the adrenaline rush will be amazing!" };
+var spy = { adv_img : "spy-action.png", adv_text : "We’ll spill the beans right now. This experience starts with a kidnapping: yours. Rest assured, one way or another, you’ll escape, but in the process you’ll learn of larger threat and you’ll be the only one who can stop it." };
+var phonebooth = { adv_img : "time-action.png", adv_text : "Professor Copernicus Von Braun has converted a London call box into a working time machine. The trouble is that it’s hard to say exactly where you’ll end up. Rest assured, you’ll have the “time” of your life AND a return trip to the present is guaranteed" };
+
+var htmlstring = "";
+
+$('.one').click(function() {
+  $('#descr-right').fadeTo(200,0);
+  htmlstring = '<img src="assets/images/' + phonebooth.adv_img
+    + '"><p>"' + phonebooth.adv_text + '"</p>';
+  console.log(htmlstring);
+  $('#descr-left').html(htmlstring);
+  $('#descr-left').fadeTo(2000,1);
+});
+```
 
 #Version 2.0 wish list
 
