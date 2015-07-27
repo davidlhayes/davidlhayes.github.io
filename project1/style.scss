@@ -25,7 +25,7 @@ header {
   margin: 0 auto;
   width: 1200px;
   color: $fontColor2;
-  font-family: $sanSerif;
+  font-family: $sans-Serif;
   img {
     float:left;
     margin: 0 8%;
@@ -79,7 +79,7 @@ header {
   text-align: left;
   h2 {
     text-align: center;
-    font-family: $sanSerif;
+    font-family: $sans-Serif;
   }
 }
 
@@ -90,7 +90,7 @@ header {
   height: 250px;
   margin: 0 auto;
   padding: 5px;
-  font-family: $sanSerif;
+  font-family: $sans-Serif;
   background-color: $menuColor;
   color: $fontColor3;
   position: relative;
@@ -201,7 +201,7 @@ header {
 }
 
 #logo {
-  font-family: $sanSerif;
+  font-family: $sans-Serif;
   color: $logoFontColor;
   font-size: $logoFontSize;
 }
@@ -282,7 +282,7 @@ input {
     margin: 0 auto;
     width: 100%;
     color: $fontColor2;
-    font-family: $sanSerif;
+    font-family: $sans-Serif;
     img {
       background-color: $headerColor;
       float:left;
@@ -347,7 +347,7 @@ input {
   text-align: center;
   padding: 5px;
   display: relative;
-  font-family: $sanSerif;
+  font-family: $sans-Serif;
   font-size: $smallFontSize;
   width: 180px;
   border: solid 1px $headerColor;
@@ -401,7 +401,7 @@ input {
   }
 
   #logo {
-    font-family: $sanSerif;
+    font-family: $sans-Serif;
     color: $logoFontColor;
     font-size: $logoFontSize;
   }

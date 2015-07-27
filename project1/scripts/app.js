@@ -9,6 +9,9 @@
 
   $(document).ready(function() {
 
+    $("#top-nav").velocity({ translateY: "75px"}, {duration: "slow"},"spring");
+
+
   console.log("All resources are loaded");
 
   // hide status messages

@@ -1,11 +1,12 @@
+@import 'bling-background.scss';
 @import 'variables.scss';
 /* Background */
 body {
   margin: 0 auto;
   padding: 0;
   background-image: url("../assets/images/maze-sky-background.jpg");
-  background-position: center top;
-  background-repeat: repeat-y;
+  background-position: top;
+  background-repeat: none;
   width: 100%;
   position: relative;
 
@@ -15,58 +16,79 @@ body {
   width: 1200px;
 }
 
-/* Header */
-#header-wrapper {
-  width: 100%;
-  height: $headerHeight;
-  background-color: $headerColor;
+#logo {
+  font-family: $logo;
+  font-size: $logoFontSize;
+  padding: 10px 5px 0 5px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: 4%;
+  border: solid 2px black;
+  width: 450px;
+  height: 100px;
+  -moz-border-radius: 200px / 100px;
+  -webkit-border-radius: 200px/ 100px;
+  border-radius: 800px / 200px;
+  @include bling-background;
+  text-align: center;
+  float: left;
+  color: $logoFontColor;
 }
+
+/* header group */
 header {
   margin: 0 auto;
-  width: 1200px;
-  color: $fontColor2;
-  font-family: $sanSerif;
+  width: 2000px;
+  height: 150px;
+  padding: 0px;
+  color: $logoFontColor;
+  font-family: $sans-Serif;
   img {
     float:left;
     margin: 0 8%;
     padding: 0;
   }
   h2 {
-    font-size: #headerFontSize;
-    color: #fontColor3;
-    margin: 0;
-    padding-top: 20px;
-    padding-left: 25px;
+    font-size: $headerFontSize;
+    margin: 40px 10px 0 10px;
+    padding: 10px;
     float: left;
+    @include bling-background;
+    border: 2px solid black;
+    border-radius: 10px;
   }
   .link {
     font-size: $headerFontSize * .75;
   }
   a {
-    color: $fontColor2;
+    color: $logoFontColor;
     text-decoration: none;
   }
   a:visited {
-    color: $fontColor2;
+    color: $logoFontColor;
   }
-
 }
 
 /* Top Navigation */
 #top-nav {
-  margin: 0;
+  margin: -20px 0 0 3%;
   padding: 0;
   display: block;
-  background-color: yellow;
+  float: left;
   ul {
-    float: left;
-    margin-top: 25px;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin: 0;
+    padding: 0;
   }
   li {
-    display:inline;
-    margin: 0 15px 0 0;
+    display:inline-block;
+    text-align: center;
+    margin-right: 15px;
+    width: 75px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: $menuFontSize;
+  @include bling-background;
   }
 }
 
@@ -79,18 +101,19 @@ header {
   text-align: left;
   h2 {
     text-align: center;
-    font-family: $sanSerif;
+    font-family: $sans-Serif;
   }
 }
 
-/* Menu */
+/* Pricing panel and Contact Form Panel (these slide down) */
 #pricing, #contact_form_wrapper {
   clear:both;
+  display: none; /* initially hidden */
   width: 100%;
   height: 250px;
   margin: 0 auto;
-  padding: 5px;
-  font-family: $sanSerif;
+  padding: 0 5px;
+  font-family: $sans-Serif;
   background-color: $menuColor;
   color: $fontColor3;
   position: relative;
@@ -99,13 +122,9 @@ header {
   }
 }
 #pricing {
-  display: none;
   text-align: center;
 }
 #contact_form_wrapper {
-  display: none;
-  width: 100%;
-  margin: 0 auto;
   height: 460px;
 }
 
@@ -113,6 +132,8 @@ header {
   width: 500px;
   margin: 0 auto;
   line-height: 2rem;
+  text-align: left;
+  padding: 5px;
   h3 {
     text-align: center;
   }
@@ -121,8 +142,6 @@ header {
     width: 300px;
     background-color: white;
   }
-  text-align: left;
-  padding: 5px;
 }
 #user_request  {
   width: 450px;
@@ -153,7 +172,7 @@ header {
   }
 }
 
-/* Description Panel */
+/* Description Panels */
 #descr-left, #descr-right {
   width: 300px;
   height: 475px;
@@ -200,13 +219,9 @@ header {
   opacity: 0;
 }
 
-#logo {
-  font-family: $sanSerif;
-  color: $logoFontColor;
-  font-size: $logoFontSize;
-}
 
-/* Footer */
+
+/* Footer Group*/
 footer {
     clear: both;
     font-size: $smallFontSize;
@@ -282,7 +297,7 @@ input {
     margin: 0 auto;
     width: 100%;
     color: $fontColor2;
-    font-family: $sanSerif;
+    font-family: $sans-Serif;
     img {
       background-color: $headerColor;
       float:left;
@@ -290,8 +305,8 @@ input {
       padding: 0 28%;
     }
     h2 {
-      font-size: #headerFontSize;
-      color: #fontColor3;
+      font-size: $headerFontSize;
+      color: $fontColor3;
       margin: 0;
       padding-top: 20px;
       padding-left: 25px;
@@ -347,7 +362,7 @@ input {
   text-align: center;
   padding: 5px;
   display: relative;
-  font-family: $sanSerif;
+  font-family: $sans-Serif;
   font-size: $smallFontSize;
   width: 180px;
   border: solid 1px $headerColor;
@@ -401,7 +416,7 @@ input {
   }
 
   #logo {
-    font-family: $sanSerif;
+    font-family: $sans-Serif;
     color: $logoFontColor;
     font-size: $logoFontSize;
   }
@@ -431,7 +446,7 @@ input {
     margin-botton: 100px;
   }
 
-  /* Footer */
+  /* Footer Group*/
   footer {
       clear: both;
       font-size: $smallFontSize;
@@ -461,8 +476,5 @@ input {
     a:visited {
       color: $fontColor2;
     }
-
   }
-
-
 }

@@ -5,19 +5,23 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Choose Your Adventure</title>
     <!-- add stylesheet -->
+    <link href='http://fonts.googleapis.com/css?family=Fontdiner+Swanky|Oswald:400,300|Quattrocento:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/impulseslider.css">
     <link rel="shortcut icon" href="assets/images/cya.ico"/>
     <!-- add scripts -->
     <script src="scripts/jquery.js"></script>
+    <script src="scripts/velocity.min.js"></script>
     <script src="scripts/jquery.impulse.slider.js"></script>
     <script src="scripts/app.js"></script>
   </head>
   <body>
-      <div id="header-wrapper">
+    <div id="wrapper">
         <header>
-          <h2>make your imagination happy&trade;</h2>
-          <a href="index.html"><img id="top-logo" src="assets/images/cya-logo.png"></a>
+          <h2 id="slogan">make your imagination happy&trade;</h2>
+          <div id="logo">
+            <h1>Choose Your Adventure</h1>
+          </div>
           <nav id="top-nav">
             <ul>
               <li id="inquiries">INQUIRIES</li> <!-- JavaScript action/div click event-->
@@ -26,7 +30,6 @@
             </ul>
           </nav>
         </header>
-      </div>
       <aside id="contact_form_wrapper">
         <div id="contact_form">
           <h3>INQUIRIES</h3>
@@ -59,7 +62,7 @@
       </aside><!-- End contact form which slides down -->
 
         <!-- A slide down pricing display -->
-        <section id="pricing">
+        <aside id="pricing">
           <h2>PRICING</h2>
           <ul>
             <li><strong>The Bank Heist</strong>......................................$12,375</li>
@@ -68,21 +71,22 @@
             <li><strong>Phone Booth Time Machine</strong>.................$11,150</li>
           </ul>
           <input type="submit" id="pricing_dismiss" name="pricing_dismiss" value="Dismiss">
-        </section>
+        </aside>
         <!-- begin content below the header -->
         <!-- phone-only -->
+        <section class="phone_panel">
           <h3 class="phone_panel" id="phText">Choose Your Adventure Now!</h3>
           <div class="phone_panel phone_buttons" id="ph1">Phone Booth Time Machine</div>
           <div class="phone_panel phone_buttons" id="ph2">Spy Hunter</div>
           <div class="phone_panel phone_buttons" id="ph3">Pirate Plunder</div>
           <div class="phone_panel phone_buttons" id="ph4">The Bank Heist</div>
-          <div class="phone_panel id="phone_spacer"></div>
+          <div class="phone_panel" id="phone_spacer"></div>
           <div class="phone_panel" id="phone_descr"></div>
+        </section>
 
 
 
         <!-- end phone portion -->
-    <div id="wrapper">
       <main>
       <aside id="descr-left"></aside>
           <section id="wrapCarousel">
@@ -119,6 +123,7 @@
         <div class="address"><p>Choose Your Adventure, Inc.<br>444 N Wabash<br>Chicago, IL 60611<br>(630) 631-8220<p></div>
       </section>
     </footer>
+  </div>
 
   </body>
 </html>
