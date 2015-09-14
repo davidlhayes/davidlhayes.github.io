@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>David Hayes</title>
-    <description>Coding is Fundamental!
+    <description>Portfolio for Full-Stack Web Developer David Hayes from the Chicago Area
 </description>
-    <link>https://davidlhayes.github.io/</link>
-    <atom:link href="https://davidlhayes.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Sep 2015 11:21:16 -0500</pubDate>
-    <lastBuildDate>Mon, 14 Sep 2015 11:21:16 -0500</lastBuildDate>
+    <link>https://davidlhayescreative.com/</link>
+    <atom:link href="https://davidlhayescreative.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 14 Sep 2015 11:26:54 -0500</pubDate>
+    <lastBuildDate>Mon, 14 Sep 2015 11:26:54 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -45,8 +45,8 @@
 &lt;p&gt;&lt;a href=&quot;https://davidlhayes.github.io&quot;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 14 Sep 2015 05:52:01 -0500</pubDate>
-        <link>https://davidlhayes.github.io/project/porfolio/jekyll/2015/09/14/project-4.html</link>
-        <guid isPermaLink="true">https://davidlhayes.github.io/project/porfolio/jekyll/2015/09/14/project-4.html</guid>
+        <link>https://davidlhayescreative.com/project/porfolio/jekyll/2015/09/14/project-4.html</link>
+        <guid isPermaLink="true">https://davidlhayescreative.com/project/porfolio/jekyll/2015/09/14/project-4.html</guid>
         
         
         <category>project</category>
@@ -64,8 +64,8 @@
 &lt;p&gt;Add some &lt;em&gt;content&lt;/em&gt; and &lt;strong&gt;awesomeness&lt;/strong&gt; using &lt;code&gt;markdown&lt;/code&gt;!&lt;/p&gt;
 </description>
         <pubDate>Fri, 05 Jun 2015 05:34:07 -0500</pubDate>
-        <link>https://davidlhayes.github.io/portfolio/update/2015/06/05/portfolio.html</link>
-        <guid isPermaLink="true">https://davidlhayes.github.io/portfolio/update/2015/06/05/portfolio.html</guid>
+        <link>https://davidlhayescreative.com/portfolio/update/2015/06/05/portfolio.html</link>
+        <guid isPermaLink="true">https://davidlhayescreative.com/portfolio/update/2015/06/05/portfolio.html</guid>
         
         
         <category>portfolio</category>
@@ -92,8 +92,8 @@
 
 </description>
         <pubDate>Mon, 01 Jun 2015 05:34:07 -0500</pubDate>
-        <link>https://davidlhayes.github.io/jekyll/update/2015/06/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">https://davidlhayes.github.io/jekyll/update/2015/06/01/welcome-to-jekyll.html</guid>
+        <link>https://davidlhayescreative.com/jekyll/update/2015/06/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://davidlhayescreative.com/jekyll/update/2015/06/01/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
