@@ -16,7 +16,7 @@
     <script src="scripts/app.js"></script>
   </head>
   <body>
-    <div id="wrapper">
+    <div class="wrapper">
         <header>
           <h2 id="slogan">make your imagination happy&trade;</h2>
           <div id="logo">
@@ -42,7 +42,7 @@
           <input type="radio" name="adventure" value="heist">The Bank Heist</input><br>
           <input type="radio" name="adventure"value="spy">Spy Hunter</input><br>
           <input type="radio" name="adventure"value="time">Time Travel Phone Booth</input><br>
-          <input type="radio" name="adventure"value="pirate">Pirate Plunder</input><br>
+          <input type="radio" name="adventure" id="user_choice" value="pirate">Pirate Plunder</input><br>
           <label for="user_request">What's the best time and day to call you?</label>
           <input type="user_request" id="user_request" placeholder="e.g., tomorrow morning @ 9"><br>
 
@@ -61,7 +61,7 @@
         </div>
       </aside><!-- End contact form which slides down -->
 
-        <!-- A slide down pricing display -->
+        <!-- A pop-over pricing display -->
         <aside id="pricing">
           <h2>PRICING</h2>
           <ul>
@@ -84,43 +84,43 @@
           <div class="phone_panel" id="phone_descr"></div>
         </section>
 
-
-
         <!-- end phone portion -->
       <main>
       <aside id="descr-left"></aside>
           <section id="wrapCarousel">
         <div id="cubeCarousel">
           <div id="cubeSpinner">
-              <div class="face one">
-                   <img class="img_slider active" src="assets/images/phonebooth.png">
+              <div class="face one pause">
+                   <img class="img-swap" src="assets/images/time_off.jpg">
               </div>
-              <div class="face two">
-                  <img class="img_slider" src="assets/images/spy.png">
+              <div class="face two pause">
+                  <img class="img-swap" src="assets/images/pirate_off.jpg">
               </div>
-              <div class="face three">
-                  <img class="img_slider" src="assets/images/pirate-skull.png">
+              <div class="face three pause">
+                  <img class="img-swap" src="assets/images/heist_off.jpg">
               </div>
-              <div class="face four">
-                  <img class="img_slider" src="assets/images/vault.png">
+              <div class="face four pause">
+                  <img class="img-swap" src="assets/images/spy_off.jpg">
               </div>
           </div>
         </div>
-        <section id="logo"><p>choose your adventure today!</p></section>
+
         </section>
 
         <aside id="descr-right"></aside>
       </main>
       <section id="viewer"></section>
-    </div>
+          <section id="cube-text"><p>Click the cube to choose your adventure!</p></section>
+      <div class="push"></div> <!-- pushes footer down -->
+    </div> <!-- wrapper end -->
+
 
     <!-- Footer below -->
     <footer>
       <section id="footer-stuff">
         <div class="address"><span id="copyright">&copy;2015 Choose Your Adventure - Design by
-          <a href="http://www.davidhayescreative.com">David Hayes</a></span></div>
+          <a href="http://www.davidhayescreative.com">David Hayes</a></span><br><p>Choose Your Adventure, Inc.<br>444 N Wabash<br>Chicago, IL 60611<br>(630) 631-8220<p></div>
         <span id="legal"><a href="legal.html">Legal</a></span>
-        <div class="address"><p>Choose Your Adventure, Inc.<br>444 N Wabash<br>Chicago, IL 60611<br>(630) 631-8220<p></div>
       </section>
     </footer>
   </div>

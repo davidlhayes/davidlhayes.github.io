@@ -15,6 +15,7 @@
  *
  */
 
+
 if(!window.console){ window.console = {log: function(){} }; }
 
 (function($) {
@@ -45,11 +46,10 @@ if(!window.console){ window.console = {log: function(){} }; }
         //pass the options variable to the function
         impulseslider: function(options) {
 
-
             //Set the default values, use comma to separate the settings, example:
             var defaults = {
-                height: 400,
-                width: 400,
+                height: 250,
+                width: 250,
                 depth: 200,
                 perspective: 800,
                 pauseTime: 3000,
@@ -66,7 +66,6 @@ if(!window.console){ window.console = {log: function(){} }; }
                 imageDivClasses: [],
                 degreesRotation : 0
             };
-
 
 
             var opts = $.extend(defaults, options);
@@ -126,7 +125,7 @@ if(!window.console){ window.console = {log: function(){} }; }
             buildPrisma(containerSelector, height,width,depth,perspective, divs);
 
 
-            // apply listener to navigation arrows
+            // NOT USED IN THIS PROJECT apply listener to navigation arrows
             $(rightSelector).click(function() {
                 rotateRight(spinnerSelector,degreesRotation);
                 console.log("Manually rotated %n degrees to the right",degreesRotation);
@@ -140,7 +139,7 @@ if(!window.console){ window.console = {log: function(){} }; }
             });
 
             $(pauseSelector).click(function() {
-                paused = true;
+                paused = !paused;
             });
 
 
