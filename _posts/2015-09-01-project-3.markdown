@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "PandaCard - a Transaction Manager Display"
+description: A sci-fi themed variation of classic Stratego
+date:   2015-08-07 12:00:00
+categories: project porfolio jekyll
+---
+## A Ruby on Rails/Backbone Single-Page App ##
+
+## Summary of Project
+
+Inspired by the PayPal API available for businesses to access their transaction data, this app stores several parameters related to transactions and displays them via template. Sorting and payment processor filtering are featured.
+
+## Project Images
+
+![http://www.pandacard.xyz](https://raw.githubusercontent.com/davidlhayes/project3/master/app/assets/images/screen-pandacard.png)
+
+## Summary of Technology Used
+
+- Ruby on Rails
+- Postgresql database
+- Backbone.js with Underscore.js templating
+- JavaScript with jQuery
+- Sass - for variables and nesting capabilities in CSS
+
+## Live Website
+
+[Alemanac](http://www.pandacard.xyz)
+
+[GitHub Repository](https://github.com/davidlhayes/project3)

@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Alemanac - A Beer Journaling App"
+description: A combination beer API search facility and user information database.
+date:   2015-08-07 12:00:00
+categories: project porfolio jekyll
+---
+## A Pair-Programming Project ##
+Created with Kate Shirley
+
+## Summary of Project
+
+Alemanac allows a user to search for beer information by style, keyword, or alcohol content (%ABV range). Users may create an account and journal (save) data about a beer, such as where they drank it and what characteristics they noted. Beer information can be entered from the search results page or entered manually.
+
+## Project Images
+
+![http://www.alemanac.xyz](http://i.imgur.com/yxbD0ms.png?1)
+
+## Summary of Technology Used
+
+- Ruby
+- Sinatra framework
+- JavaScript
+- jQuery
+- Bootstrap framework styling HTML
+- Postgresql database
+
+## Live Website
+
+[Alemanac](http://www.alemanac.xyz)
+
+[GitHub Repository](https://davidlhayes.github.io)

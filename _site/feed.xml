@@ -6,9 +6,135 @@
 </description>
     <link>https://davidlhayescreative.com/</link>
     <atom:link href="https://davidlhayescreative.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Sep 2015 11:26:54 -0500</pubDate>
-    <lastBuildDate>Mon, 14 Sep 2015 11:26:54 -0500</lastBuildDate>
+    <pubDate>Tue, 15 Sep 2015 07:46:38 -0500</pubDate>
+    <lastBuildDate>Tue, 15 Sep 2015 07:46:38 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Warp Attack - a Board Game</title>
+        <description>&lt;h2 id=&quot;a-mean-stack-single-page-game-app&quot;&gt;A MEAN-stack single-page game app&lt;/h2&gt;
+
+&lt;h2 id=&quot;summary-of-project&quot;&gt;Summary of Project&lt;/h2&gt;
+
+&lt;p&gt;Employing Node.js, Express.js, Angular.js, and Firebase in place of MongoDB NoSql data, this game is just what you’d expect if you’d played Stratego. Just for something different, space ship icons and an outer space motif make of the visuals.&lt;/p&gt;
+
+&lt;h2 id=&quot;project-images&quot;&gt;Project Images&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/davidlhayes/warp_attack/master/public/assets/images/warp-screenshot.png&quot; alt=&quot;http://www.warpattack.xyz&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-of-technology-used&quot;&gt;Summary of Technology Used&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Node.js&lt;/li&gt;
+  &lt;li&gt;Express.js&lt;/li&gt;
+  &lt;li&gt;Firebase real-time NoSQL database&lt;/li&gt;
+  &lt;li&gt;Angular.js&lt;/li&gt;
+  &lt;li&gt;Foundation styling framework&lt;/li&gt;
+  &lt;li&gt;Handlebars templating&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;live-website&quot;&gt;Live Website&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.warpattack.xyz&quot;&gt;Warp Attack&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/davidlhayes/warp_attack&quot;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 18 Sep 2015 07:00:00 -0500</pubDate>
+        <link>https://davidlhayescreative.com/project/porfolio/jekyll/2015/09/18/project-4.html</link>
+        <guid isPermaLink="true">https://davidlhayescreative.com/project/porfolio/jekyll/2015/09/18/project-4.html</guid>
+        
+        
+        <category>project</category>
+        
+        <category>porfolio</category>
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Meet &amp; Hire</title>
+        <description>&lt;h2 id=&quot;a-ruby-on-sinatra-single-page-app&quot;&gt;A Ruby on Sinatra Single Page App&lt;/h2&gt;
+
+&lt;h2 id=&quot;summary-of-project&quot;&gt;Summary of Project&lt;/h2&gt;
+
+&lt;p&gt;A friendly RSVP application to solicit commitments for company representatives who might attend a meet-and-hire (reverse job fair). Features my animated signature on a “Hello” sticker.&lt;/p&gt;
+
+&lt;p&gt;The animation is done with CSS animation. The signature was captured on a digitizer pad, smoothed by hand, and then converted to discrete curves. On loading, each curve in the set is set to dashed line-type with the dash length the length of the curve and offset past the length of the curve. After a CSS keyframe delay, the offset is transitioned to zero over a designated time interval.&lt;/p&gt;
+
+&lt;h2 id=&quot;project-images&quot;&gt;Project Images&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/davidlhayes/meet-and-hire/blob/master/public/meet-hire-screen.png?raw=true&quot; alt=&quot;http://www.davidhayes.info&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-of-technology-used&quot;&gt;Summary of Technology Used&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ruby&lt;/li&gt;
+  &lt;li&gt;Sinatra framework&lt;/li&gt;
+  &lt;li&gt;Postgresql Database&lt;/li&gt;
+  &lt;li&gt;SVG&lt;/li&gt;
+  &lt;li&gt;CSS3 Animation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;live-website&quot;&gt;Live Website&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.davidhayes.info&quot;&gt;Meet &amp;amp; Hire RSVP&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/davidlhayes/meet-and-hire&quot;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 14 Sep 2015 07:00:00 -0500</pubDate>
+        <link>https://davidlhayescreative.com/project/porfolio/jekyll/2015/09/14/meet-n-hire.html</link>
+        <guid isPermaLink="true">https://davidlhayescreative.com/project/porfolio/jekyll/2015/09/14/meet-n-hire.html</guid>
+        
+        
+        <category>project</category>
+        
+        <category>porfolio</category>
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>PandaCard - a Transaction Manager Display</title>
+        <description>&lt;h2 id=&quot;a-ruby-on-railsbackbone-single-page-app&quot;&gt;A Ruby on Rails/Backbone Single-Page App&lt;/h2&gt;
+
+&lt;h2 id=&quot;summary-of-project&quot;&gt;Summary of Project&lt;/h2&gt;
+
+&lt;p&gt;Inspired by the PayPal API available for businesses to access their transaction data, this app stores several parameters related to transactions and displays them via template. Sorting and payment processor filtering are featured.&lt;/p&gt;
+
+&lt;h2 id=&quot;project-images&quot;&gt;Project Images&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/davidlhayes/project3/master/app/assets/images/screen-pandacard.png&quot; alt=&quot;http://www.pandacard.xyz&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-of-technology-used&quot;&gt;Summary of Technology Used&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ruby on Rails&lt;/li&gt;
+  &lt;li&gt;Postgresql database&lt;/li&gt;
+  &lt;li&gt;Backbone.js with Underscore.js templating&lt;/li&gt;
+  &lt;li&gt;JavaScript with jQuery&lt;/li&gt;
+  &lt;li&gt;Sass - for variables and nesting capabilities in CSS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;live-website&quot;&gt;Live Website&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.pandacard.xyz&quot;&gt;Alemanac&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/davidlhayes/project3&quot;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 Aug 2015 07:00:00 -0500</pubDate>
+        <link>https://davidlhayescreative.com/project/porfolio/jekyll/2015/08/07/project-3.html</link>
+        <guid isPermaLink="true">https://davidlhayescreative.com/project/porfolio/jekyll/2015/08/07/project-3.html</guid>
+        
+        
+        <category>project</category>
+        
+        <category>porfolio</category>
+        
+        <category>jekyll</category>
+        
+      </item>
     
       <item>
         <title>Alemanac - A Beer Journaling App</title>
@@ -21,22 +147,18 @@
 
 &lt;h2 id=&quot;project-images&quot;&gt;Project Images&lt;/h2&gt;
 
-&lt;p&gt;&lt;em&gt;Screenshots to go here!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/wdi-clydesdale/alemanac/master/Public/images/screen-search.png&quot; alt=&quot;Search Page&quot; /&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/wdi-clydesdale/alemanac/master/Public/images/screen-journal.png&quot; alt=&quot;Journal Page&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/yxbD0ms.png?1&quot; alt=&quot;http://www.alemanac.xyz&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;summary-of-technology-used&quot;&gt;Summary of Technology Used&lt;/h2&gt;
 
-&lt;p&gt;*Ruby
-*Sinatra framework
-*JavaScript
-*jQuery
-*Bootstrap framework styling HTML
-*Postgresql database
-*ActiveRecord Object-Relational Mapping facility
-*Microsoft Excel
-*Microsoft VBA&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ruby&lt;/li&gt;
+  &lt;li&gt;Sinatra framework&lt;/li&gt;
+  &lt;li&gt;JavaScript&lt;/li&gt;
+  &lt;li&gt;jQuery&lt;/li&gt;
+  &lt;li&gt;Bootstrap framework styling HTML&lt;/li&gt;
+  &lt;li&gt;Postgresql database&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;live-website&quot;&gt;Live Website&lt;/h2&gt;
 
@@ -44,9 +166,9 @@
 
 &lt;p&gt;&lt;a href=&quot;https://davidlhayes.github.io&quot;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 14 Sep 2015 05:52:01 -0500</pubDate>
-        <link>https://davidlhayescreative.com/project/porfolio/jekyll/2015/09/14/project-4.html</link>
-        <guid isPermaLink="true">https://davidlhayescreative.com/project/porfolio/jekyll/2015/09/14/project-4.html</guid>
+        <pubDate>Fri, 07 Aug 2015 07:00:00 -0500</pubDate>
+        <link>https://davidlhayescreative.com/project/porfolio/jekyll/2015/08/07/project-2.html</link>
+        <guid isPermaLink="true">https://davidlhayescreative.com/project/porfolio/jekyll/2015/08/07/project-2.html</guid>
         
         
         <category>project</category>
@@ -54,51 +176,6 @@
         <category>porfolio</category>
         
         <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>Your portfolio</title>
-        <description>&lt;h2 id=&quot;welcome-to-your-portfolio&quot;&gt;Welcome to your portfolio!&lt;/h2&gt;
-
-&lt;p&gt;Add some &lt;em&gt;content&lt;/em&gt; and &lt;strong&gt;awesomeness&lt;/strong&gt; using &lt;code&gt;markdown&lt;/code&gt;!&lt;/p&gt;
-</description>
-        <pubDate>Fri, 05 Jun 2015 05:34:07 -0500</pubDate>
-        <link>https://davidlhayescreative.com/portfolio/update/2015/06/05/portfolio.html</link>
-        <guid isPermaLink="true">https://davidlhayescreative.com/portfolio/update/2015/06/05/portfolio.html</guid>
-        
-        
-        <category>portfolio</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 01 Jun 2015 05:34:07 -0500</pubDate>
-        <link>https://davidlhayescreative.com/jekyll/update/2015/06/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">https://davidlhayescreative.com/jekyll/update/2015/06/01/welcome-to-jekyll.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
