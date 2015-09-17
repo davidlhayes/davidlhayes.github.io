@@ -15,7 +15,7 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #aa2535;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -44,10 +44,18 @@ $on-laptop:       800px;
 }
 
 
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
         "syntax-highlighting"
 ;
+
+.site-title {
+  font-family: fantasy, sans-serif;
+  font-size: 2.5rem;
+}
+body {
+  background: url('../paper.jpg') !important;
+  background: 10%;
+}

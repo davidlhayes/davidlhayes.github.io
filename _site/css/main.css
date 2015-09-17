@@ -64,10 +64,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #aa2535;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #6b1721; }
   a:hover {
     color: #111;
     text-decoration: underline; }
@@ -480,3 +480,11 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+.site-title {
+  font-family: fantasy, sans-serif;
+  font-size: 2.5rem; }
+
+body {
+  background: url("../paper.jpg") !important;
+  background: 10%; }
