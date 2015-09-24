@@ -3,6 +3,7 @@ layout: post
 title:  "Warp Attack - a Board Game"
 description: A Science Fiction-themed version of Stratego
 date:   2015-09-18 12:00:00
+image: https://raw.githubusercontent.com/davidlhayes/warp_attack/master/public/assets/images/warp-final-screen.png
 categories: project porfolio jekyll
 ---
 ## A MEAN-stack single-page game app ##
@@ -13,7 +14,7 @@ Employing Node.js, Express.js, Angular.js, and Firebase in place of MongoDB NoSq
 
 ## Project Images
 
-![http://www.warpattack.xyz](https://raw.githubusercontent.com/davidlhayes/warp_attack/master/public/assets/images/warp-screenshot.png)
+![http://www.warpattack.xyz](https://raw.githubusercontent.com/davidlhayes/warp_attack/master/public/assets/images/warp-final-screen.png)
 
 ## Summary of Technology Used
 

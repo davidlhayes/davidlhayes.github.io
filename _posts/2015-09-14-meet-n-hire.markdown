@@ -3,6 +3,7 @@ layout: post
 title:  "Meet & Hire"
 description: A Ruby Sinatra single-page RSVP app
 date:   2015-09-14 12:00:00
+image:  https://github.com/davidlhayes/meet-and-hire/blob/master/public/meet-hire-screen.png?raw=true
 categories: project porfolio jekyll
 ---
 ## A Ruby on Sinatra Single Page App ##

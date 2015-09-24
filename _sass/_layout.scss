@@ -105,6 +105,9 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
+   a, a:visited {
+     color: $brand-color;
+   }
 }
 
 .footer-col-wrapper {

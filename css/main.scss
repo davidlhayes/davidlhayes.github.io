@@ -16,6 +16,9 @@ $spacing-unit:     30px;
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #aa2535;
+$brand-text-color: #eee;
+
+$nav-menu-color:   #eee;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -48,14 +51,68 @@ $on-laptop:       800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "da-slider",
+        "isotope",
+        "styles",
+        "bootstrap.min"
 ;
 
+.site-header {
+  background-color: $brand-color;
+  color: $brand-text-color;
+}
 .site-title {
-  font-family: fantasy, sans-serif;
-  font-size: 2.5rem;
+  color: $brand-text-color;
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-size: 1.8rem;
 }
-body {
-  background: url('../paper.jpg') !important;
-  background: 10%;
+.project {
+  width: 45%;
+  min-width: 250px;
+  height: 200px;
+  margin: 2%;
+  float: left;
 }
+.rss-subscribe {
+  clear: both;
+}
+.icon--linkedin {
+
+    > svg {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}
+
+.username {
+  a {
+    color: $brand-color;
+  }
+  a:visited {
+    color: $brand-color;
+  }
+  a:hover {
+    color: lighten($brand-color, 40%);
+    text-decoration: none;
+  }
+
+}
+.phone {
+  color: $brand-color;
+}
+
+// body {
+//   background: url('../paper.jpg') !important;
+//   background: 10%;
+// }
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);

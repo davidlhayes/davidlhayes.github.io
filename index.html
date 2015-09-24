@@ -1,14 +1,12 @@
 ---
-layout: default
+layout: front
 ---
-
-<div class="home">
 
   <h1 class="page-heading">Projects</h1>
 
-  <ul class="post-list">
+  <div class="post-list">
     {% for post in site.posts %}
-      <li>
+      <div class="project" style="background-image: url({{ post.image }}); background-size: cover;">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
@@ -16,9 +14,9 @@ layout: default
         </h2>
         <span class="post-meta">{{ post.description | date: "%b %-d, %Y" }}</span>
 
-      </li>
+      </div>
     {% endfor %}
-  </ul>
+  </div>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 

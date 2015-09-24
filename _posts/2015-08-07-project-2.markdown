@@ -3,6 +3,7 @@ layout: post
 title:  "Alemanac - A Beer Journaling App"
 description: A combination beer API search facility and user information database.
 date:   2015-08-07 12:00:00
+image: http://i.imgur.com/yxbD0ms.png?1
 categories: project porfolio jekyll
 ---
 ## A Pair-Programming Project ##
