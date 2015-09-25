@@ -7570,6 +7570,15 @@ th.visible-print, td.visible-print {
 .portfolio p, h2 {
   color: white; }
 
+#quote h2 {
+  color: white; }
+
+#aboutUs h2, #experience h2, #skills h2 {
+  color: #111; }
+
+#aboutUs a, a:visited {
+  color: #111; }
+
 .curtain {
   background-color: black;
   height: 300px;

@@ -79,7 +79,16 @@ $on-laptop:       800px;
   float: left;
 }
 .portfolio p, h2 {
-  color: white ;
+  color: white;
+}
+#quote h2 {
+  color: white;
+}
+#aboutUs h2, #experience h2, #skills h2 {
+  color: $text-color;
+}
+#aboutUs a, a:visited {
+  color: $text-color;
 }
 .curtain {
   background-color: black;
