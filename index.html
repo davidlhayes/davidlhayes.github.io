@@ -2,22 +2,26 @@
 layout: front
 ---
 
-  <h1 class="page-heading">Projects</h1>
+<div class="heading text-center">
+     <!-- Heading -->
+     <h2>Portfolio</h2>
+     <p>A sampling of projects I've created</p>
+ </div>
 
   <div class="post-list">
     {% for post in site.posts %}
-      <div class="project" style="background-image: url({{ post.image }}); background-size: cover;">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <span class="post-meta">{{ post.description | date: "%b %-d, %Y" }}</span>
-
-      </div>
+      <a class="post-link description text-center" href="{{ post.url | prepend: site.baseurl }}">
+        <div class="project description" style="background-image: url({{ post.image }}); background-size: cover;">
+          <div class="curtain">
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2 class="description text-center">
+              {{ post.title }}
+            </h2>
+            <p class="post-meta description text-center">{{ post.description | date: "%b %-d, %Y" }}</p>
+          </div>
+        </div>
+      </a>
     {% endfor %}
   </div>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

@@ -11,6 +11,8 @@
 ">
 
   <link rel="stylesheet" href="/css/main.css">
+  <!-- Load explicitly. Can't figure out the proper way right now -->
+  <link rel="stylesheet" href="/font/css/font-awesome.min.css">
   <link rel="canonical" href="https://davidlhayescreative.com/-reloaded">
   <link rel="alternate" type="application/rss+xml" title="David Hayes" href="https://davidlhayescreative.com/feed.xml" />
 </head>
@@ -58,7 +60,7 @@
 </header>
 
   <div class="home">
-    <div id="#top"></div>
+    <div id="#top" class="scroll-top" ></div>
     <section id="home">
         <div class="banner-container">
             <img src="images/david-portfolio2-bg.jpg" alt="banner" />
@@ -94,7 +96,7 @@
     </section>
 
     <!--About-->
-    <section id="aboutUs" class="secPad">
+    <section id="aboutUs" class="secPad scroll-link">
         <div class="container">
             <div class="heading text-center">
                 <!-- Heading -->
@@ -131,7 +133,7 @@
 
 
     <!--Quote-->
-    <section id="quote" class="bg-parlex">
+    <section id="quote" class="bg-parlex scroll-link">
         <div class="parlex-back">
             <div class="container secPad text-center">
 				<h2>First we thought the PC was a calculator. Then we found out how to turn numbers into letters with ASCII — and we thought it was a typewriter. Then we discovered graphics, and we thought it was a television. With the World Wide Web, we’ve realized it’s a brochure.</h2><h3>-Douglas Adams</h3>
@@ -237,7 +239,7 @@
     </section>
 <!-- End Skills -->
 <!--Experience-->
-<section id="experience" class="secPad">
+<section id="experience" class="secPad scroll-link">
   <div class="container">
        <div class="heading text-center">
             <!-- Heading -->
@@ -383,7 +385,7 @@
 
 </section>
 
-    <div class="page-content">
+    <div class="page-content" id="portfolio" class="scroll-link">
       <div class="wrapper">
         <div class="home">
 
@@ -440,7 +442,7 @@
       </div>
     </div>
 
-    <footer class="site-footer">
+    <footer class="site-footer scroll-link" id="contact">
 
   <div class="wrapper">
 
@@ -512,6 +514,7 @@
 
 </footer>
 
+    <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a>
 
 
     <!-- Scripts -->
@@ -525,6 +528,9 @@
     <script src="js/jquery.cslider.js" type="text/javascript"></script>
     <script src="js/custom.js" type="text/javascript"></script>
     <script src="js/owl-carousel/owl.carousel.js"></script>
+    <script src="js/gallery.js" type="text/javascript">
+
+    </script>
 
   </body>
 
