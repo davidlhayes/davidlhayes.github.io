@@ -11,6 +11,8 @@ $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
+$site-title-color: #eee;
+
 $spacing-unit:     30px;
 
 $text-color:       #111;
@@ -25,7 +27,7 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1190px;
 
 $on-palm:          480px;
 $on-phablet:       600px;
@@ -63,15 +65,15 @@ $on-laptop:       800px;
   color: $brand-text-color;
 }
 .site-title {
-  color: $brand-text-color;
+  color: #eee;
   font-family: 'Pacifico', cursive;
   font-weight: 400;
-  font-size: 1.8rem;
+  // font-size: 1.8rem;
 }
 .project {
   width: 45%;
   min-width: 250px;
-  height: 200px;
+  height: 50%;
   margin: 2%;
   float: left;
 }

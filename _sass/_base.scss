@@ -159,7 +159,7 @@ pre {
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    padding-left: 0;
     @extend %clearfix;
 
     @include media-query($on-laptop) {

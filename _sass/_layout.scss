@@ -11,7 +11,7 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 32px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -19,7 +19,11 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+      color: $site-title-color;
+    }
+    &:hover {
+      color: darken($site-title-color, 25%);
+      text-decoration: none;
     }
 }
 
@@ -32,12 +36,20 @@
     }
 
     .page-link {
-        color: $text-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
+        }
+        &,
+        &:visited {
+          color: $site-title-color;
+        }
+        &:hover {
+          color: darken($site-title-color, 25%);
+          text-decoration: none;
+          cursor: pointer;
         }
     }
 
