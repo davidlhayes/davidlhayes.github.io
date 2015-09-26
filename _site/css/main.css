@@ -2086,6 +2086,7 @@ a:hover {
   border-bottom-left-radius: 50%; }
 
 #timeline .timeline-badge span.timeline-balloon-date-day {
+  line-height: 2em;
   font-size: 1.4em; }
 
 #timeline .timeline-badge span.timeline-balloon-date-month {
@@ -7612,3 +7613,9 @@ th.visible-print, td.visible-print {
 
 .phone {
   color: #aa2535; }
+
+.copyright {
+  width: 100%;
+  padding: 20px;
+  background-color: #aa2535;
+  color: white; }

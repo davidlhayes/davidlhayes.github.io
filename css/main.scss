@@ -138,6 +138,12 @@ $on-laptop:       800px;
 .phone {
   color: $brand-color;
 }
+.copyright {
+  width: 100%;
+  padding: 20px;
+  background-color: $brand-color;
+  color: white;
+}
 
 // body {
 //   background: url('../paper.jpg') !important;
