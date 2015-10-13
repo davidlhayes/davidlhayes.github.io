@@ -28,6 +28,6 @@ The animation is done with CSS animation. The signature was captured on a digiti
 
 ## Live Website
 
-[Meet & Hire RSVP](http://www.davidhayes.info)
+[Meet & Hire RSVP](http://www.davidhayes.info/)
 
 [GitHub Repository](https://github.com/davidlhayes/meet-and-hire)
