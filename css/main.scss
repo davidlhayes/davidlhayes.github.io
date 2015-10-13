@@ -78,7 +78,10 @@ $on-laptop:       800px;
   margin: 2%;
   float: left;
 }
-.portfolio p, h2 {
+#portfolio h2 {
+  color: white;
+}
+.mypost p, h2 {
   color: black;
 }
 #quote h2 {
@@ -98,10 +101,10 @@ $on-laptop:       800px;
   // min-width: 250px;
   // min-height: 300px;
 }
-.post-link a, a:visited {
-  color: white;
-  font-weight: 800;
-}
+// .post-link a, a:visited {
+//   color: white;
+//   font-weight: 800;
+// }
 .clearer {
   clear: both;
 }

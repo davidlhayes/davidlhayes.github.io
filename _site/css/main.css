@@ -7568,8 +7568,11 @@ th.visible-print, td.visible-print {
   margin: 2%;
   float: left; }
 
-.portfolio p, h2 {
+#portfolio h2 {
   color: white; }
+
+.mypost p, h2 {
+  color: black; }
 
 #quote h2 {
   color: white; }
@@ -7584,10 +7587,6 @@ th.visible-print, td.visible-print {
   background-color: black;
   height: 300px;
   opacity: 0; }
-
-.post-link a, a:visited {
-  color: white;
-  font-weight: 800; }
 
 .clearer {
   clear: both; }
