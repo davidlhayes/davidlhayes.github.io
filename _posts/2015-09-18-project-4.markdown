@@ -14,7 +14,7 @@ Employing Node.js, Express.js, Angular.js, and Firebase in place of MongoDB NoSq
 
 ## Project Images
 
-![http://www.warpattack.xyz](https://raw.githubusercontent.com/davidlhayes/warp_attack/master/public/assets/images/warp-final-screen.png)
+![http://www.warpattack.xyz:3000](https://raw.githubusercontent.com/davidlhayes/warp_attack/master/public/assets/images/warp-final-screen.png)
 
 ## Summary of Technology Used
 
@@ -27,6 +27,6 @@ Employing Node.js, Express.js, Angular.js, and Firebase in place of MongoDB NoSq
 
 ## Live Website
 
-[Warp Attack](http://www.warpattack.xyz)
+[Warp Attack](http://www.warpattack.xyz:3000)
 
 [GitHub Repository](https://github.com/davidlhayes/warp_attack)
