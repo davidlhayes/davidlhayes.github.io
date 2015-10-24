@@ -29,4 +29,4 @@ Employing Node.js, Express.js, Angular.js, and Firebase in place of MongoDB NoSq
 
 [Warp Attack](http://www.warpattack.xyz:3000)
 
-[GitHub Repository](https://github.com/davidlhayes/warp_attack)
+[GitHub Repository](https://github.com/davidlhayes/warp-attack-3)
